@@ -1,7 +1,7 @@
 @media screen and (max-width: 420px) {
 	#head {
 		width: auto;
-		height: 90%;
+		height: 100%;
 		left:50%;
 		transform:translate(-50%);
 		-webkit-transform:translate(-50%);
