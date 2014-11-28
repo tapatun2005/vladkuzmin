@@ -314,9 +314,14 @@ body, html  {
 		height: auto;
 		width: 100%;
 		max-height: 120%;
-		bottom:-2%;
 		z-index: 0;
-		overflow:hidden; 
+		overflow:hidden;
+		top:120%;
+		transform:translate(0,-110%);
+		-webkit-transform:translate(0,-110%);
+		-o-transform:translate(0,-110%);
+		-ms-transform:translate(0,-110%);
+		-moz-transform:translate(0,-110%);
 	}
 
 
@@ -988,9 +993,6 @@ body, html  {
 	}
 }
 @media screen and (max-width: 767px) {
-	#rainbow {
-		bottom:-5%;
-	}
 	.contact-form form {
 		width: 75%;
 	}
