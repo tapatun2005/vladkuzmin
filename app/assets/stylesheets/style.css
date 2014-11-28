@@ -312,7 +312,7 @@ body, html  {
 		display: block;
 		position: absolute;
 		height: auto;
-		width:100%;
+		width: 200%;
 		max-height: 120%;
 		bottom:-2%;
 		margin: auto;
@@ -1003,7 +1003,7 @@ body, html  {
 
 @media screen and (max-width: 980px) {
 	#fishes {
-		width: 100%;
+		width: 150%;
 		margin-left:50%;
 		transform:translate(-50%);
 		-webkit-transform:translate(-50%);
