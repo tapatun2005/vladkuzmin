@@ -1009,11 +1009,12 @@ body, html  {
 		-o-transform:translate(-50%);
 	}
 	#rainbow {
-		transform:translate(0,-100%);
-		-webkit-transform:translate(0,-100%);
-		-o-transform:translate(0,-100%);
-		-ms-transform:translate(0,-100%);
-		-moz-transform:translate(0,-100%);
+		width: 500%;
+		transform:translate(-5%,-110%);
+		-webkit-transform:translate(-5%,-110%);
+		-o-transform:translate(-5%,-110%);
+		-ms-transform:translate(-5%,-110%);
+		-moz-transform:translate(-5%,-110%);
 	}
 }
 
