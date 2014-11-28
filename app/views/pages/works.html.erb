@@ -1,0 +1,28 @@
+<%= render 'shared/fishportfolio' %>
+<%=  render "mobilemenu" %>
+<div class="logo-contact">
+	<%=link_to root_path, :class => 'logo-link' do %>
+		<%=  render "shared/logo" %>
+		<span class="logo-title">Vlad Kuzmin</span>
+		<span class="logo-subtitle">Web Designer</span>
+	<% end %>
+</div>
+<div class="portfolio-list">
+	<%=link_to portfolio_path, class: "" do %>
+		<div class="portfolio-item">
+			<%=image_tag "crybabycry-logo.png", class: "postfolio-client-image-1" %>
+			<h5>Branding</h5>
+		</div>
+	<% end %>
+	<%=link_to portfolio_path, class: "" do %>
+		<div class="portfolio-item">
+			<%=image_tag "crybabycry-logo.png", class: "postfolio-client-image-2" %>
+			<h5>Branding</h5>
+		</div>
+	<% end %>
+</div>
+<div class="load-bg"></div>
+<div class="close-button-index">
+	<span></span>
+	<span></span>
+</div>
