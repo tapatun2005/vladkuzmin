@@ -18,9 +18,9 @@
 }
 
 @media screen and (max-width: 550px) {
-	.menu-mobile {
+/*	.menu-mobile {
 		display: none;
-	}
+	}*/
 }
 @media screen and (max-width: 767px) {
 	/*#rainbow {

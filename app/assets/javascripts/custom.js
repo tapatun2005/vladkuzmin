@@ -1,16 +1,15 @@
-//LOADING PAGE//
-$(window).load(function() {
-	$('.load-bg').animate({"width":"250%", "padding-top":"250%"});
-	setTimeout(function(){
-       $('.load-bg').hide();
-    },2000);
-});
+
 
 
 
 
 $(document).ready(function() {
 	
+	$('.load-bg').animate({"width":"250%", "padding-top":"250%"});
+	setTimeout(function(){
+       $('.load-bg').hide();
+    },2000);
+
 	$('body').smoothWheel()
 
 	$('.fish-link').click(function (e) {
