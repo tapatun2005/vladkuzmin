@@ -1003,6 +1003,7 @@ body, html  {
 		width: 75%;
 	}
 	#rainbow {
+		width:200%;
 		left:-10%;
 	}
 }
