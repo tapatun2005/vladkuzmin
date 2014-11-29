@@ -999,6 +999,9 @@ body, html  {
 	.contact-form form {
 		width: 75%;
 	}
+	#rainbow {
+		left:10%;
+	}
 }
 
 @media screen and (max-width: 980px) {
