@@ -1,18 +1,38 @@
-//INDEX PAGE, CONTACT PAGE//
-
-
-
-
+//LOADING PAGE//
 $(window).load(function() {
 	$('.load-bg').css({"width":"250%", "padding-top":"250%"});
 	setTimeout(function(){
        $('.load-bg').hide();
     },2000);
 });
-//INDEX PAGE//
+
+
+
 
 $(document).ready(function() {
 $('body').smoothWheel()
+
+
+$('.fish-link').click(function (e) {
+    e.preventDefault();// prevent default anchor behavior
+    var goTo = this.getAttribute("id"); // store anchor href
+    $(".load-bg").show();
+    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+    // do something while timeOut ticks ...
+    setTimeout(function(){
+       window.location = goTo;
+    },2500);
+});
+
+$('form').submit(function(){
+	setTimeout(function() {
+    	$('form').submit();
+  	},3500);
+	$(".load-bg").show();
+    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+   	$(".submit").addClass('submit-move');
+
+});
 
   if (window.matchMedia("(max-width: 550px)").matches) {
     $('.logo-link').click(function (e) {
