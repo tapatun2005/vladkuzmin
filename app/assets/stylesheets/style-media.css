@@ -23,9 +23,11 @@
 	}
 }
 @media screen and (max-width: 767px) {
-	#rainbow {
+	/*#rainbow {
+		width: 200%;
+		overflow: hidden;
 		bottom:-5%;
-	}
+	}*/
 	.contact-form form {
 		width: 75%;
 	}
@@ -33,12 +35,6 @@
 
 @media screen and (max-width: 980px) {
 	#fishes {
-		width: 150%;
-		margin-left:50%;
-		transform:translate(-50%);
-		-webkit-transform:translate(-50%);
-		-moz-transform:translate(-50%);
-		-ms-transform:translate(-50%);
-		-o-transform:translate(-50%);
+		
 	}
 }

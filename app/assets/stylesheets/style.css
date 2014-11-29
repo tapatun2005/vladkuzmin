@@ -1004,6 +1004,7 @@ body, html  {
 		width: 75%;
 	}
 	#rainbow {
+		width:200%;
 		left:-10%;
 	}
 }
@@ -1011,12 +1012,6 @@ body, html  {
 @media screen and (max-width: 980px) {
 	#fishes {
 		width: 100%;
-		left:0%;
-		transform:translate(0%);
-		-webkit-transform:translate(0%);
-		-moz-transform:translate(0%);
-		-ms-transform:translate(0%);
-		-o-transform:translate(0%);
 	}
 }
 
