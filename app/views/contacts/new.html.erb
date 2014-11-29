@@ -1,27 +1,21 @@
 <%=render "pages/mobilemenu" %>
-<div class="above">
-	<div class="logo-contact">
-		<%=link_to root_path, :class => 'logo-link' do %>
-			<%=  render "svg/logo" %>
-			<span class="logo-title">Vlad Kuzmin</span>
-			<span class="logo-subtitle">Web Designer</span>
-		<% end %>
-	</div>
-	<div class="contact-form">
-		<%= simple_form_for(@contact) do |f| %>
-			<h1>Contact me</h1>
-			<%= f.input :name, :required => true, :placeholder => "Name" %>
-			<%= f.input :email, :required => true, :placeholder => "Email" %>
-			<%= f.input :message, :as => :text, :required => true %>
-			<div style="display:none;">
-		      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-		    </div>
-			<%= f.button :submit, value: "", :class=> "submit submit-animation" %>
-		<%end%>
-	</div>
+<div class="logo-contact">
+	<%=link_to root_path, :class => 'logo-link' do %>
+		<%=  render "svg/logo" %>
+		<span class="logo-title">Vlad Kuzmin</span>
+		<span class="logo-subtitle">Web Designer</span>
+	<% end %>
 </div>
-<div class="load-bg"></div>
-<div class="close-button-index">
-	<span></span>
-	<span></span>
+<div class="contact-form">
+	<%= simple_form_for(@contact) do |f| %>
+		<h1>Contact me</h1>
+		<%= f.input :name, :required => true, :placeholder => "Name" %>
+		<%= f.input :email, :required => true, :placeholder => "Email" %>
+		<%= f.input :message, :as => :text, :required => true %>
+		<div style="display:none;">
+	      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+	    </div>
+		<%= f.button :submit, value: "", :class=> "submit submit-animation" %>
+	<%end%>
 </div>
+<%= render "shared/load" %>
