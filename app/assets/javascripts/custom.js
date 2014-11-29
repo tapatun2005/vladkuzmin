@@ -1,6 +1,6 @@
 //LOADING PAGE//
 $(window).load(function() {
-	$('.load-bg').css({"width":"250%", "padding-top":"250%"});
+	$('.load-bg').animate({"width":"250%", "padding-top":"250%"});
 	setTimeout(function(){
        $('.load-bg').hide();
     },2000);
