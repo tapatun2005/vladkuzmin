@@ -1,11 +1,3 @@
-$(window).scroll(function() {
-    if ($(document).height() - 150 <= ($(window).height() + $(window).scrollTop())) {
-        $(".share").addClass("scroll-bottom");
-    }
-    else {
-    	$(".share").removeClass("scroll-bottom");
-    }
-});
 $(document).ready(function(){
 	if (window.matchMedia("(min-width: 920px)").matches) {
 	  $('.illuminator').css({"width":"50%", "padding-top":"50%"});
@@ -25,4 +17,13 @@ $(document).ready(function(){
 	       window.location = goTo;
 	    },1200);
 	}); 
+});
+
+$(window).scroll(function() {
+    if ($(document).height() - 150 <= ($(window).height() + $(window).scrollTop())) {
+        $(".share").addClass("scroll-bottom");
+    }
+    else {
+    	$(".share").removeClass("scroll-bottom");
+    }
 });

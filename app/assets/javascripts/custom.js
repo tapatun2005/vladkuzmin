@@ -80,7 +80,7 @@ $(document).ready(function() {
 		});
 	 }
 
- 	$('.postfolio-link').click(function (e) {
+ 	$('.portfolio-link').click(function (e) {
 	    e.preventDefault();// prevent default anchor behavior
 	    var goTo = this.getAttribute("href"); // store anchor href
 	    $(".load-bg").show();
