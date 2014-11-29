@@ -53,6 +53,16 @@ $(document).ready(function() {
 		       window.location = goTo;
 		    }, 1000);
 		});
+		$('.portfolio-link').click(function (e) {
+		    e.preventDefault();// prevent default anchor behavior
+		    var goTo = this.getAttribute("href"); // store anchor href
+		    $(".load-bg").show();
+		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+		    // do something while timeOut ticks ...
+		    setTimeout(function(){
+		       window.location = goTo;
+		    },2500);
+		});
 		$('.close-button-index').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
 		    $(this).fadeOut();
@@ -79,17 +89,6 @@ $(document).ready(function() {
 		    },2500);
 		});
 	 }
-
- 	$('.portfolio-link').click(function (e) {
-	    e.preventDefault();// prevent default anchor behavior
-	    var goTo = this.getAttribute("href"); // store anchor href
-	    $(".load-bg").show();
-	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
-	    // do something while timeOut ticks ...
-	    setTimeout(function(){
-	       window.location = goTo;
-	    },2500);
-	});
 
 
 
