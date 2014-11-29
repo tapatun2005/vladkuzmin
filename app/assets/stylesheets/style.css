@@ -1003,6 +1003,7 @@ body, html  {
 	}
 	#rainbow {
 		left:-10%;
+		bottom: 0;
 	}
 }
 
