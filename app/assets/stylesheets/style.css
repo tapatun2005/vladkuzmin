@@ -75,7 +75,6 @@ body, html  {
 	height: 90%;
 	margin-top: -5%;
 	clear: both;
-	overflow-x: hidden;
 }
 	
 	.logo {
@@ -1003,7 +1002,6 @@ body, html  {
 		width: 75%;
 	}
 	#rainbow {
-		width:200%;
 		left:-10%;
 	}
 }
