@@ -39,7 +39,7 @@ $(document).ready(function() {
 		    e.preventDefault();// prevent default anchor behavior
 		    $(".close-button-index").show();
 		    $(".menu-mobile").show();
-		    $('.menu-mobile').animate({"width":"75%", "padding-top":"75%"}, 2500);
+		    $('.menu-mobile').animate({"width":"75%", "padding-top":"75%", "border-radius":"50%"}, 2500);
 		    // store anchor href
 		    $(".load-bg").show();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
