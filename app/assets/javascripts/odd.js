@@ -9,11 +9,6 @@ $(document).ready(function(){
 	    },2500);
 	});
 
-	$(".load-bg").velocity(
-		{
-			width: "250%",
-			"padding-top": "250%"
-		}
-	);
+	$(".load-bg").css({"width":"250%", "padding-top":"250%"});
 
 });
