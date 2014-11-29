@@ -355,6 +355,7 @@ body, html  {
 		height: auto;
 		top:12%;
 		max-height: 100%;
+		overflow: hidden;
 
 	}
 
