@@ -420,12 +420,15 @@ body, html  {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	border:10000px solid black;
+	border:20000px solid #000;
 	z-index: 9;
 	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
 }
 
@@ -919,6 +922,7 @@ body, html  {
 			  -moz-transition: all 2.5s ease-in-out;
 			  -o-transition: all 2.5s ease-in-out;
 			  transition: all 2.5s ease-in-out;
+			  background-size: 100%;
 		}
 				
 			.submit-move {
