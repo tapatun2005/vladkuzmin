@@ -474,11 +474,6 @@ body, html  {
 	-moz-transform:translate(-50%,-50%);
 	-o-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
-	-ms-transition: all 1s ease-in-out;
-	  -webkit-transition: all 1s ease-in-out;
-	  -moz-transition: all 1s ease-in-out;
-	  -o-transition: all 1s ease-in-out;
-	  transition: all 1s ease-in-out;
 	height: auto;
 	width: 0%;
 	padding-top: 0%;
@@ -494,6 +489,8 @@ body, html  {
 }
 		@-webkit-keyframes illuminator-move {
 			0% {
+				width:0%;
+				padding-top: 0%;
 				top:50%;
 				left:50%;
 			}
@@ -510,6 +507,8 @@ body, html  {
 				left:51%;
 			}
 			100% {
+				width:50%;
+				padding-top: 50%;
 				top:50%;
 				left:50%;
 			}
