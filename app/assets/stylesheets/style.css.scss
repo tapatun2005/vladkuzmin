@@ -358,6 +358,7 @@ body, html  {
 		width: 200%;
 		left: -80%;
 		height: 100%;
+		z-index: 1;
 	}
 	#fish-portfolio-behind {
 		position: fixed;
@@ -814,7 +815,7 @@ section {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	border:10000px solid black;
-	z-index: 0;
+	z-index: 10;
 	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
