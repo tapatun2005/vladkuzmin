@@ -3,7 +3,9 @@
 body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
 	overflow-x: hidden;
-	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
 }
 
 /** {
@@ -36,7 +38,6 @@ body, html  {
 	width: 0%;
 	padding-top: 0%;
 	border-radius: 50%;
-	-webkit-border-radius: 50%;
 	z-index: 9999;
 	top: 50%;
 	left: 50%;
@@ -56,7 +57,6 @@ body, html  {
 			-webkit-transform: translate(-50%,-50%);
 			-ms-transform: translate(-50%,-50%);
 			-o-transform: translate(-50%,-50%);
-
 		}
 			.menu-links a {
 				color:#000;
@@ -85,11 +85,11 @@ body, html  {
 	}
 	.logo-contact {
 		left:50%;
-		transform:translate(-63%);
-		-webkit-transform:translate(-63%);
-		-moz-transform:translate(-63%);
-		-o-transform:translate(-63%);
-		-ms-transform:translate(-63%);
+		transform:translate(-51%);
+		-webkit-transform:translate(-51%);
+		-moz-transform:translate(-51%);
+		-o-transform:translate(-51%);
+		-ms-transform:translate(-51%);
 	}
 	.logo,
 	.logo-contact {
@@ -152,10 +152,6 @@ body, html  {
 		.logo-contact a{
 			text-decoration: none;
 			color:#000;
-		}
-
-		.fish-link {
-			cursor:pointer;
 		}
 
 		#logo {
@@ -423,15 +419,12 @@ body, html  {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	border:20000px solid #000;
+	border:10000px solid black;
 	z-index: 9;
 	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-transition: all 2s ease-in-out;
-	-moz-transition: all 2s ease-in-out;
-	-o-transition: all 2s ease-in-out;
-	-ms-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
 }
 
@@ -632,7 +625,6 @@ body, html  {
 	top:100%;
 	left:0;
 	right:0;
-	background: #fff;
 }
 
 .portfolio-welcome {
@@ -878,8 +870,8 @@ body, html  {
 	.contact-form form {
 		display: block;
 		width: 40%;
-		margin: auto auto 40px auto;
-		background-image:image_url("hook.png");
+		margin: auto;
+		background-image:url("hook.png");
 		background-repeat: no-repeat;
 		background-position: 96% 94%;
 		background-size: 38px;
@@ -920,13 +912,12 @@ body, html  {
 			width: 100%;
 			max-width: 153px;	
 			height: 82px;
-			background-image:image_url("fish.png");
+			background-image:url("fish.png");
 			-ms-transition: all 2s ease-in-out;
 			  -webkit-transition: all 2.5s ease-in-out;
 			  -moz-transition: all 2.5s ease-in-out;
 			  -o-transition: all 2.5s ease-in-out;
 			  transition: all 2.5s ease-in-out;
-			  background-size: 100%;
 		}
 				
 			.submit-move {
@@ -1010,27 +1001,17 @@ body, html  {
 	}
 }
 @media screen and (max-width: 767px) {
-
+	.contact-form form {
+		width: 75%;
+	}
 	#rainbow {
 		left:-10%;
-	}
-	.contact-form form {
-		background-position: 96% 94%;
-		background-size: 25px;
-	}
-	.contact-form form input[type="submit"] {
-		max-width: 80px;	
-		height: 42px;
-		background-size: 100%;
 	}
 }
 
 @media screen and (max-width: 980px) {
 	#fishes {
 		width: 100%;
-	}
-	.contact-form form {
-		width: 75%;
 	}
 }
 
