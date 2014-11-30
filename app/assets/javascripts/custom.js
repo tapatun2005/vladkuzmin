@@ -70,7 +70,7 @@ $(document).ready(function() {
 		    $('.menu-mobile').animate({"width":"0%", "padding-top":"0%"},1000);
 		    setTimeout(function(){
 		       $('.menu-mobile').hide();
-		    },1500);
+		    },1000);
 		    // do something while timeOut ticks ...
 		    $('.load-bg').animate({"width":"250%", "padding-top":"250%"});
 	    	setTimeout(function(){
