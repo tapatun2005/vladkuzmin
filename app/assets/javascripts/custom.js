@@ -41,7 +41,7 @@ $(document).ready(function() {
 		    $(".menu-mobile").show();
 		    $('.menu-mobile').animate({"width":"75%", "padding-top":"75%", "border-radius":"50%"}, 2500);
 		    // store anchor href
-		    $(".load-bg").show();
+		    $(".load-bg").fadeIn();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 		});
 		$('.menu-link').click(function (e) {
