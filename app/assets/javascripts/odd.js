@@ -9,6 +9,4 @@ $(document).ready(function(){
 	    },2500);
 	});
 
-	$(".load-bg").css({"width":"250%", "padding-top":"250%"});
-
 });
