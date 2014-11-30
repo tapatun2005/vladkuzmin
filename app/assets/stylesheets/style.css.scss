@@ -349,6 +349,10 @@ body, html  {
 		overflow: hidden;
 	}
 
+		.fish-link {
+			cursor: pointer;
+		}
+
 	#fish-portfolio {
 		position: fixed;
 		width: 200%;
@@ -859,7 +863,7 @@ section {
 		background-repeat: no-repeat;
 		background-position: 96% 94%;
 		background-size: 38px;
-
+		margin-bottom: 40px;
 	}
 		.contact-form h1,
 		.contact-form h2,
