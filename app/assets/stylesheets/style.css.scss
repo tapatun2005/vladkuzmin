@@ -3,6 +3,7 @@
 body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
 	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 /** {
@@ -35,6 +36,7 @@ body, html  {
 	width: 0%;
 	padding-top: 0%;
 	border-radius: 50%;
+	-webkit-border-radius: 50%;
 	z-index: 9999;
 	top: 50%;
 	left: 50%;
@@ -418,15 +420,19 @@ body, html  {
 	height: auto;
 	width: 0%;
 	padding-top: 0%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
-	border:5000px solid #000;
+	border:20000px solid #000;
 	z-index: 9;
+	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	-webkit-transition: width padding-top 2s ease-in-out;
-	-moz-transition: width padding-top 2s ease-in-out;
-	-o-transition: width padding-top 2s ease-in-out;
-	-ms-transition: widht padding-top 2s ease-in-out;
-	transition: width padding-top 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
 }
 
 
@@ -440,16 +446,23 @@ body, html  {
 	-moz-transform:translate(-50%,-50%);
 	-o-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
+	-ms-transition: all 1s ease-in-out;
+	  -webkit-transition: all 1s ease-in-out;
+	  -moz-transition: all 1s ease-in-out;
+	  -o-transition: all 1s ease-in-out;
+	  transition: all 1s ease-in-out;
 	height: auto;
 	width: 0%;
 	padding-top: 0%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
-	border-radius: 50%;
-	border:5000px solid black;
+	border:10000px solid black;
 	z-index: 0;
+	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-animation: illuminator-move 5s infinite linear;
-	webkit-animation: illuminator-move 5s infinite linear;
 }
 		@-webkit-keyframes illuminator-move {
 			0% {
