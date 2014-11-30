@@ -486,6 +486,8 @@ body, html  {
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-animation: illuminator-move 5s infinite linear;
+	transform: all 2s ease-in-out;
+	-webkit-transform: all 2s ease-in-out;
 }
 		@-webkit-keyframes illuminator-move {
 			0% {
