@@ -447,15 +447,13 @@ body, html  {
 	height: auto;
 	width: 0%;
 	padding-top: 0%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
 	border-radius: 50%;
-	border:10000px solid black;
+	border-radius: 50%;
+	border:5000px solid black;
 	z-index: 0;
-	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-animation: illuminator-move 5s infinite linear;
+	webkit-animation: illuminator-move 5s infinite linear;
 }
 		@-webkit-keyframes illuminator-move {
 			0% {
