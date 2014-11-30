@@ -367,26 +367,6 @@ body, html  {
 		  transition: all 1s ease-in-out;
 	}
 
-
-.loading-screen {
-	background: #000;
-	width:100%;
-	height: 100%;
-	position: fixed;
-	z-index: 10;
-}
-	#logo-loading {
-		display: block;
-		width:10%;
-		position: absolute;
-		top:50%;
-		left:50%;
-		transform:translate(-50%,-50%);
-		-webkit-transform:translate(-50%,-50%);
-		-moz-transform:translate(-50%,-50%);
-		-o-transform:translate(-50%,-50%);
-		-ms-transform:translate(-50%,-50%);
-	}
 .load-bg {
 	position: fixed;
 	display: block;
@@ -414,55 +394,6 @@ body, html  {
 
 
 /*PORTFOLIO TEST*/
-.illuminator {
-	position: fixed;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	-webkit-transform:translate(-50%,-50%);
-	-moz-transform:translate(-50%,-50%);
-	-o-transform:translate(-50%,-50%);
-	-ms-transform:translate(-50%,-50%);
-	-ms-transition: all 1s ease-in-out;
-	  -webkit-transition: all 1s ease-in-out;
-	  -moz-transition: all 1s ease-in-out;
-	  -o-transition: all 1s ease-in-out;
-	  transition: all 1s ease-in-out;
-	height: auto;
-	width: 0%;
-	padding-top: 0%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	border:10000px solid black;
-	z-index: 0;
-	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	-webkit-animation: illuminator-move 5s infinite linear;
-}
-		@-webkit-keyframes illuminator-move {
-			0% {
-				top:50%;
-				left:50%;
-			}
-			25% {
-				top:49%;
-				left:49%;
-			}
-			50% {
-				top:49%;
-				left:50%;
-			}
-			75% {
-				top:49%;
-				left:51%;
-			}
-			100% {
-				top:50%;
-				left:50%;
-			}
-		}
 
 .share {
 	position: fixed;
@@ -858,6 +789,56 @@ section {
 			}
 		}
 
+
+.illuminator {
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-ms-transition: all 1s ease-in-out;
+	  -webkit-transition: all 1s ease-in-out;
+	  -moz-transition: all 1s ease-in-out;
+	  -o-transition: all 1s ease-in-out;
+	  transition: all 1s ease-in-out;
+	height: auto;
+	width: 0%;
+	padding-top: 0%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border:10000px solid black;
+	z-index: 0;
+	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
+	-webkit-animation: illuminator-move 5s infinite linear;
+}
+		@-webkit-keyframes illuminator-move {
+			0% {
+				top:50%;
+				left:50%;
+			}
+			25% {
+				top:49%;
+				left:49%;
+			}
+			50% {
+				top:49%;
+				left:50%;
+			}
+			75% {
+				top:49%;
+				left:51%;
+			}
+			100% {
+				top:50%;
+				left:50%;
+			}
+		}
 
 
 /*CONTACT FORM*/
