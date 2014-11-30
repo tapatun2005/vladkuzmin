@@ -2,7 +2,7 @@
 
 body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
-	overflow-x:hidden;
+	overflow-x: hidden;
 	overflow-y: auto;
 }
 
@@ -428,40 +428,12 @@ body, html  {
 	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	animation: load-screen 4s forwards;
-	-webkit-animation: load-screen 4s forwards;
-	-moz-animation: load-screen 4s forwards;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
 }
-		@keyframes load-screen {
-			0% {
-				width: 0%;
-				padding-top: 0%;
-			}
-			100% {
-				width: 300%;
-				padding-top: 300%;
-			}
-		}
-		@-webkit-keyframes load-screen {
-			0% {
-				width: 0%;
-				padding-top: 0%;
-			}
-			100% {
-				width: 300%;
-				padding-top: 300%;
-			}
-		}
-		@-moz-keyframes load-screen {
-			0% {
-				width: 0%;
-				padding-top: 0%;
-			}
-			100% {
-				width: 300%;
-				padding-top: 300%;
-			}
-		}
 
 
 /*PORTFOLIO TEST*/
@@ -474,6 +446,11 @@ body, html  {
 	-moz-transform:translate(-50%,-50%);
 	-o-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
+	-ms-transition: all 1s ease-in-out;
+	  -webkit-transition: all 1s ease-in-out;
+	  -moz-transition: all 1s ease-in-out;
+	  -o-transition: all 1s ease-in-out;
+	  transition: all 1s ease-in-out;
 	height: auto;
 	width: 0%;
 	padding-top: 0%;
@@ -486,13 +463,9 @@ body, html  {
 	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
 	-webkit-animation: illuminator-move 5s infinite linear;
-	transform: all 2s ease-in-out;
-	-webkit-transform: all 2s ease-in-out;
 }
 		@-webkit-keyframes illuminator-move {
 			0% {
-				/*width:0%;
-				padding-top: 0%;*/
 				top:50%;
 				left:50%;
 			}
@@ -509,8 +482,6 @@ body, html  {
 				left:51%;
 			}
 			100% {
-				/*width:50%;
-				padding-top: 50%;*/
 				top:50%;
 				left:50%;
 			}
