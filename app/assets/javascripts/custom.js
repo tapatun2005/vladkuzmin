@@ -51,7 +51,7 @@ $(document).ready(function() {
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
 		       window.location = goTo;
-		    }, 2500);
+		    }, 1500);
 		});
 		$('.portfolio-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
@@ -69,12 +69,12 @@ $(document).ready(function() {
 		    $('.menu-mobile').animate({"width":"0%", "padding-top":"0%"},1000);
 		    setTimeout(function(){
 		       $('.menu-mobile').hide();
-		    },1000);
+		    },1500);
 		    // do something while timeOut ticks ...
 		    $('.load-bg').animate({"width":"250%", "padding-top":"250%"});
 	    	setTimeout(function(){
 		       $('.load-bg').hide();
-		    },2500);
+		    },2000);
 		});
 	  }
 	else {
@@ -86,7 +86,7 @@ $(document).ready(function() {
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
 		       window.location = goTo;
-		    }3500);
+		    },3500);
 		});
 	 }
 
