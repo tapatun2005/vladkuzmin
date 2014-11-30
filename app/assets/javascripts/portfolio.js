@@ -16,7 +16,7 @@ $(document).ready(function(){
 	    $(".share").css({"opacity":"0"});
 	    setTimeout(function(){
 	       window.location = goTo;
-	    },1200);
+	    },2500);
 	}); 
 });
 
