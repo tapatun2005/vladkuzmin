@@ -9,4 +9,6 @@ $(document).ready(function(){
 	    },2500);
 	});
 
+	$('.illuminator').animate({"width":"50%", "padding-top":"50%"}, 1000);
+
 });
