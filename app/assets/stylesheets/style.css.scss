@@ -419,14 +419,14 @@ body, html  {
 	width: 0%;
 	padding-top: 0%;
 	border-radius: 50%;
-	border:20000px solid #000;
+	border:5000px solid #000;
 	z-index: 9;
 	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,1);
-	/*-webkit-transition: all 2s ease-in-out;
-	-moz-transition: all 2s ease-in-out;
-	-o-transition: all 2s ease-in-out;
-	-ms-transition: all 2s ease-in-out;
-	transition: all 2s ease-in-out;*/
+	-webkit-transition: width padding-top 2s ease-in-out;
+	-moz-transition: width padding-top 2s ease-in-out;
+	-o-transition: width padding-top 2s ease-in-out;
+	-ms-transition: widht padding-top 2s ease-in-out;
+	transition: width padding-top 2s ease-in-out;
 }
 
 
