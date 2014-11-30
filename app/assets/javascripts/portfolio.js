@@ -7,7 +7,7 @@ $(document).ready(function(){
 	}
 	$('.a-close-button').click(function (e) {
 	    e.preventDefault();                   // prevent default anchor behavior
-	    $("this").fadeOut();
+	    $(this).fadeOut();
 	    var goTo = this.getAttribute("href"); // store anchor href
 
 	    // do something while timeOut ticks ...
