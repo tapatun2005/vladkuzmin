@@ -587,7 +587,6 @@ section {
 
 	.portfolio-content img {
 		width: 100%;
-		margin-bottom: 100%;
 	}
 
 	.portfolio-content img.first {
@@ -856,10 +855,11 @@ section {
 		display: block;
 		width: 40%;
 		margin: auto;
-		background-image:url("hook.png");
+		background-image:image_url("hook.png");
 		background-repeat: no-repeat;
 		background-position: 96% 94%;
 		background-size: 38px;
+
 	}
 		.contact-form h1,
 		.contact-form h2,
@@ -897,12 +897,13 @@ section {
 			width: 100%;
 			max-width: 153px;	
 			height: 82px;
-			background-image:url("fish.png");
+			background-image:image_url("fish.png");
 			-ms-transition: all 2s ease-in-out;
 			  -webkit-transition: all 2.5s ease-in-out;
 			  -moz-transition: all 2.5s ease-in-out;
 			  -o-transition: all 2.5s ease-in-out;
 			  transition: all 2.5s ease-in-out;
+			  background-size: 100%;
 		}
 				
 			.submit-move {
@@ -991,6 +992,16 @@ section {
 	}
 	#rainbow {
 		left:-10%;
+	}
+
+	.contact-form form input[type="submit"] {
+		max-width: 80px;	
+		height: 43px;
+		background-image:image_url("fish.png");
+	}
+	.contact-form form {
+		background-position: 96% 94%;
+		background-size: 25px;
 	}
 }
 
