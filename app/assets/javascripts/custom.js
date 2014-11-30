@@ -46,6 +46,7 @@ $(document).ready(function() {
 		});
 		$('.menu-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
+		    $('.close-button-index').fadeOut();
 		    var goTo = this.getAttribute("href"); // store anchor href
 		    $('.menu-mobile').animate({"width":"0%", "padding-top":"0%"},1000);
 		    // do something while timeOut ticks ...
