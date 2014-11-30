@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('.illuminator').animate({"border":"5000px solid #000"});
 	if (window.matchMedia("(min-width: 920px)").matches) {
 	  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},1500);
 	} else {
