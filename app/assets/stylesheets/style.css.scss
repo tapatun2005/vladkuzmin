@@ -358,8 +358,17 @@ body, html  {
 		width: 200%;
 		left: -80%;
 		height: 100%;
-		z-index: 1;
 	}
+
+		.zindex-1 {
+			z-index: -1;
+			position: absolute;
+		}
+		.zindex-2 {
+			z-index: 2;
+			position: absolute;
+		}
+
 	#fish-portfolio-behind {
 		position: fixed;
 		width: 200%;
@@ -962,9 +971,6 @@ section {
 		width:30%;
 	}
 }
-
-
-
 
 
 
