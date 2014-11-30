@@ -21,7 +21,7 @@ $(document).ready(function() {
 	    // do something while timeOut ticks ...
 	    setTimeout(function(){
 	       window.location = goTo;
-	    },2500);
+	    },3500);
 	});
 
 	$('form').submit(function(){
@@ -51,7 +51,7 @@ $(document).ready(function() {
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
 		       window.location = goTo;
-		    }, 1000);
+		    }, 2500);
 		});
 		$('.portfolio-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
@@ -61,7 +61,7 @@ $(document).ready(function() {
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
 		       window.location = goTo;
-		    },2500);
+		    },3500);
 		});
 		$('.close-button-index').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
@@ -74,7 +74,7 @@ $(document).ready(function() {
 		    $('.load-bg').animate({"width":"250%", "padding-top":"250%"});
 	    	setTimeout(function(){
 		       $('.load-bg').hide();
-		    },2000);
+		    },2500);
 		});
 	  }
 	else {
@@ -86,7 +86,7 @@ $(document).ready(function() {
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
 		       window.location = goTo;
-		    },2500);
+		    }3500);
 		});
 	 }
 
@@ -102,6 +102,6 @@ $(document).ready(function() {
 	    // do something while timeOut ticks ...
 	    setTimeout(function(){
 	       window.location = goTo;
-	    },2500);
+	    },3500);
 	});
 });
