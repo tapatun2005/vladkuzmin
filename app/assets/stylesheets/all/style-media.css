@@ -1,0 +1,38 @@
+@media screen and (max-width: 380px) {
+	#head {
+		width: auto;
+		height: 100%;
+		left:50%;
+		transform:translate(-50%);
+		-webkit-transform:translate(-50%);
+		-moz-transform:translate(-50%);
+		-o-transform:translate(-50%);
+		-ms-transform:translate(-50%);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.welcome-message {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 550px) {
+/*	.menu-mobile {
+		display: none;
+	}*/
+}
+@media screen and (max-width: 767px) {
+	/*#rainbow {
+		width: 200%;
+		overflow: hidden;
+		bottom:-5%;
+	}*/
+	.contact-form form {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	
+}
