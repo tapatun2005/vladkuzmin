@@ -2,7 +2,8 @@ $(document).ready(function(){
 	$('.illuminator').animate({"border":"5000px solid #000"});
 	if (window.matchMedia("(min-width: 920px)").matches) {
 	  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
-	} else {
+	} 
+	else {
 	  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
 	}
 	$('.a-close-button').click(function (e) {
