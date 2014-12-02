@@ -10,16 +10,16 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
-	var b = document.documentElement;
-	b.setAttribute('data-useragent',  navigator.userAgent);	
-	b.setAttribute('data-platform', navigator.platform );
+//	var b = document.documentElement;
+//	b.setAttribute('data-useragent',  navigator.userAgent);	
+//	b.setAttribute('data-platform', navigator.platform );
 
 // IE 10 == Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
 
-	var c = document.documentElement;
-	c.setAttribute('data-useragent',  navigator.userAgent);
-	c.setAttribute('data-platform', navigator.platform );
-	c.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+//	var c = document.documentElement;
+//	c.setAttribute('data-useragent',  navigator.userAgent);
+//	c.setAttribute('data-platform', navigator.platform );
+//	c.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
 	
 	$('body').smoothWheel()
 
