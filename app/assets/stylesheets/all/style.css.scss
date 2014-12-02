@@ -1,61 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
-
-/*IE 11.0*/
-
-
-html[data-useragent*='rv:11.0'] #fishes {
-		display: block;
-		width: 80%;
-		position: relative;
-		height: auto;
-		top:0%;
-		left:50%;
-		transform:translate(-50%,0);
-		-wibkit-transform:translate(-50%,0);
-		-moz-transform:translate(-50%,0);
-		-o-transform:translate(-50%,0);
-		-ms-transform:translate(-50%,0);
-		max-height: 100%;
-		overflow: hidden;
-}
-
-html[data-useragent*='rv:11.0'] .rainbow-stroke,
-html[data-useragent*='rv:11.0'] .icons,
-html[data-useragent*='rv:11.0'] .ear,
-html[data-useragent*='rv:11.0'] #fish-portfolio  {
-	display: none;
-}
-
-/*IE 10.0*/
-
-html[data-useragent*='MSIE 10.0'] #fishes {
-	display: block;
-		width: 80%;
-		position: relative;
-		height: auto;
-		top:0%;
-		left:50%;
-		transform:translate(-50%,0);
-		-wibkit-transform:translate(-50%,0);
-		-moz-transform:translate(-50%,0);
-		-o-transform:translate(-50%,0);
-		-ms-transform:translate(-50%,0);
-		max-height: 100%;
-		overflow: hidden;
-}
-html[data-useragent*='MSIE 10.0'] .rainbow-stroke,
-html[data-useragent*='MSIE 10.0'] .icons,
-html[data-useragent*='MSIE 10.0'] .ear,
-html[data-useragent*='MSIE 10.0'] #fish-portfolio   {
-	display: none;
-}
-
-
-
-
-
-
 body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
 	overflow-x: hidden;
@@ -116,7 +60,7 @@ body, html  {
 .under {
 	position: relative;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	margin-top: -5%;
 	clear: both;
 }
