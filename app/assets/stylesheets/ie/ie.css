@@ -1,6 +1,6 @@
 /*IE 11.0*/
 
-
+/*
 html[data-useragent*='rv:11.0'] #fishes {
 		display: block;
 		width: 80%;
@@ -22,10 +22,10 @@ html[data-useragent*='rv:11.0'] .icons,
 html[data-useragent*='rv:11.0'] .ear,
 html[data-useragent*='rv:11.0'] #fish-portfolio  {
 	display: none;
-}
+}*/
 
 /*IE 10.0*/
-
+/*
 html[data-useragent*='MSIE 10.0'] #fishes {
 	display: block;
 		width: 80%;
@@ -47,3 +47,4 @@ html[data-useragent*='MSIE 10.0'] .ear,
 html[data-useragent*='MSIE 10.0'] #fish-portfolio   {
 	display: none;
 }
+*/
