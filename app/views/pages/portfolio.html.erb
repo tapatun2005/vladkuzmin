@@ -1,44 +1,42 @@
-<div class="content-wrap">
-	<%= render 'svg/fishportfoliobehind' %>
-	<div class="zindex-2">
-		<%= render 'svg/fishportfolio' %>
+<%= render 'svg/fishportfoliobehind' %>
+<div class="zindex-2">
+	<%= render 'svg/fishportfolio' %>
+</div>
+<section>
+	<div class="portfolio-welcome">
+		<%=image_tag "crybabycry-logo.png" %>
+		<h3>BRANDING</h3>
 	</div>
-	<section>
-		<div class="portfolio-welcome">
-			<%=image_tag "crybabycry-logo.png" %>
-			<h3>BRANDING</h3>
-		</div>
-	</section>
-	<section>
-		<div class="portfolio-content">
-			<%=image_tag "crybabycry-iphone.png", :class => "first" %>
-		</div>
-	</section>
-	<section>
-		<div class="portfolio-content">
-			<%=image_tag "crybabycry-tshirt.png", :class => "second" %>
-		</div>
-	</section>
-	<section></section>
-	<div class="bubbles">
-		<div class="bubble bubble-one"></div>
-		<div class="bubble bubble-two"></div>
-		<div class="bubble bubble-three"></div>
+</section>
+<section>
+	<div class="portfolio-content">
+		<%=image_tag "crybabycry-iphone.png", :class => "first" %>
 	</div>
-	<div class="illuminator"></div>
-	<%=link_to root_path, class: "a-close-button" do %>
-		<div class="close-button">
-			<span></span>
-			<span></span>
-		</div>
-	<% end %>
-	<div class="share">
-		<h1>THANK YOU!</h1>
-		<div class="social-buttons">
-			<a href=""><%=image_tag "facebook.png" %></a>
-			<a href=""><%=image_tag "twitter.png" %></a>
-			<a href=""><%=image_tag "pinterest.png" %></a>
-		</div>
-		<h4>Visit the website</h4>
+</section>
+<section>
+	<div class="portfolio-content">
+		<%=image_tag "crybabycry-tshirt.png", :class => "second" %>
 	</div>
+</section>
+<section></section>
+<div class="bubbles">
+	<div class="bubble bubble-one"></div>
+	<div class="bubble bubble-two"></div>
+	<div class="bubble bubble-three"></div>
+</div>
+<div class="illuminator"></div>
+<%=link_to root_path, class: "a-close-button" do %>
+	<div class="close-button">
+		<span></span>
+		<span></span>
+	</div>
+<% end %>
+<div class="share">
+	<h1>THANK YOU!</h1>
+	<div class="social-buttons">
+		<a href=""><%=image_tag "facebook.png" %></a>
+		<a href=""><%=image_tag "twitter.png" %></a>
+		<a href=""><%=image_tag "pinterest.png" %></a>
+	</div>
+	<h4>Visit the website</h4>
 </div>
