@@ -4,6 +4,7 @@ body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
 	overflow-x: hidden;
 	width:100%;
+	height: 100%;
 
 }
 
@@ -57,17 +58,16 @@ body, html  {
 			}
 
 .above {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 }
 
 .under {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	margin-top: -5%;
-	clear: both;
 }
 	
 	.logo {

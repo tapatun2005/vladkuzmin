@@ -1,7 +1,5 @@
 <%=render 'mobilemenu'%>
-<div class="above">
-	<%=render "svg/rainbow" %>
-	<div class="logo">
+<div class="logo">
 		<%=link_to contacts_path, :class => 'logo-link' do %>
 			<%=  render "svg/logo" %>
 			<span class="logo-title">Vlad Kuzmin</span>
@@ -12,11 +10,14 @@
 		<span class="welcome-subtitle">Dive into</span>
 		<span class="welcome-title">Creativity</span>
 	</div>
-</div> <!-- END ABOVE -->
-<div class="under">
+<section>
+	<%=render "svg/rainbow" %>
+ <!-- END ABOVE -->
+</section>
+<section>
 	<%=render "svg/head"%>
 	<%=render "svg/fishes"%>		
-</div>
+</section>
 <div class="load-bg"></div>
 <div class="close-button-index">
 	<span></span>
