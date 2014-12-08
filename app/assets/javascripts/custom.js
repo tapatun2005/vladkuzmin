@@ -10,7 +10,38 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
+//	var b = document.documentElement;
+//	b.setAttribute('data-useragent',  navigator.userAgent);	
+//	b.setAttribute('data-platform', navigator.platform );
 
+// IE 10 == Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)
+
+//	var c = document.documentElement;
+//	c.setAttribute('data-useragent',  navigator.userAgent);
+//	c.setAttribute('data-platform', navigator.platform );
+//	c.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+	
+	$('body').smoothWheel()
+
+	$('.fish-link').click(function (e) {
+	    e.preventDefault();// prevent default anchor behavior
+	    var goTo = this.getAttribute("href"); // store anchor href
+	    $(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	    // do something while timeOut ticks ...
+	    setTimeout(function(){
+	       window.location = goTo;
+	    },3500);
+	});
+
+	$('form').submit(function(){
+		setTimeout(function() {
+	    	$('form').submit();
+	  	},3500);
+		$(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	   	$(".submit").addClass('submit-move');
+	});
 
 	if (window.matchMedia('(max-width: 550px)').matches) {
 	    $('.logo-link').click(function (e) {
@@ -72,4 +103,16 @@ $(document).ready(function() {
 
 
 
+
+	$('.logo-contact-link').click(function (e) {
+	    e.preventDefault();// prevent default anchor behavior
+	    var goTo = this.getAttribute("href"); // store anchor href
+	    $(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	   
+	    // do something while timeOut ticks ...
+	    setTimeout(function(){
+	       window.location = goTo;
+	    },3500);
+	});
 });
