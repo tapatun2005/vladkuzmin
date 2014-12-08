@@ -57,21 +57,21 @@ $(document).ready(function() {
 		$('.menu-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
 		    $('.close-button-index').fadeOut();
-		    var goTo = this.getAttribute("href"); // store anchor href
+		    var goTo0 = this.getAttribute("href"); // store anchor href
 		    $('.menu-mobile').animate({"width":"0%", "padding-top":"0%"},1000);
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo;
+		       window.location = goTo0;
 		    }, 1000);
 		});
 		$('.portfolio-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
-		    var goTo = this.getAttribute("href"); // store anchor href
+		    var goTo1 = this.getAttribute("href"); // store anchor href
 		    $(".load-bg").show();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo;
+		       window.location = goTo1;
 		    },3500);
 		});
 		$('.close-button-index').click(function (e) {
@@ -91,12 +91,12 @@ $(document).ready(function() {
 	else {
 	   $('.logo-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
-		    var goTo = this.getAttribute("href"); // store anchor href
+		    var goTo2 = this.getAttribute("href"); // store anchor href
 		    $(".load-bg").show();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo;
+		       window.location = goTo2;
 		    },3500);
 		});
 	 }
