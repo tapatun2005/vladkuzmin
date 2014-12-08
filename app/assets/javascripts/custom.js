@@ -104,15 +104,15 @@ $(document).ready(function() {
 
 
 
-	$('.logo-contact-link').click(function (e) {
-	    e.preventDefault();// prevent default anchor behavior
-	    var goTo = this.getAttribute("href"); // store anchor href
-	    $(".load-bg").show();
-	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+//	$('.logo-contact-link').click(function (e) {
+//	    e.preventDefault();// prevent default anchor behavior
+//	    var goTo = this.getAttribute("href"); // store anchor href
+//	    $(".load-bg").show();
+//	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 	   
 	    // do something while timeOut ticks ...
-	    setTimeout(function(){
-	       window.location = goTo;
-	    },3500);
-	});
+//	    setTimeout(function(){
+//	       window.location = goTo;
+//	    },3500);
+//	});
 });
