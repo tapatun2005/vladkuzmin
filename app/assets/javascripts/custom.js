@@ -21,27 +21,27 @@ $(document).ready(function() {
 //	c.setAttribute('data-platform', navigator.platform );
 //	c.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
 	
-//	$('body').smoothWheel()
+	$('body').smoothWheel()
 
-//	$('.fish-link').click(function (e) {
-//	    e.preventDefault();// prevent default anchor behavior
-//	    var goTo = this.getAttribute("href"); // store anchor href
-//	    $(".load-bg").show();
-//	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	$('.fish-link').click(function (e) {
+	    e.preventDefault();// prevent default anchor behavior
+	    var goTo = this.getAttribute("href"); // store anchor href
+	    $(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 	    // do something while timeOut ticks ...
-//	    setTimeout(function(){
-//	       window.location = goTo;
-//	    },3500);
-//	});
+	    setTimeout(function(){
+	       window.location = goTo;
+	    },3500);
+	});
 
-//	$('form').submit(function(){
-//		setTimeout(function() {
-//	    	$('form').submit();
-//	  	},3500);
-//		$(".load-bg").show();
-//	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
-//	   	$(".submit").addClass('submit-move');
-//	});
+	$('form').submit(function(){
+		setTimeout(function() {
+	    	$('form').submit();
+	  	},3500);
+		$(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	   	$(".submit").addClass('submit-move');
+	});
 
 	if (window.matchMedia('(max-width: 550px)').matches) {
 	    $('.logo-link').click(function (e) {
@@ -57,21 +57,21 @@ $(document).ready(function() {
 		$('.menu-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
 		    $('.close-button-index').fadeOut();
-		    var goTo0 = this.getAttribute("href"); // store anchor href
+		    var goTo = this.getAttribute("href"); // store anchor href
 		    $('.menu-mobile').animate({"width":"0%", "padding-top":"0%"},1000);
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo0;
+		       window.location = goTo;
 		    }, 1000);
 		});
 		$('.portfolio-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
-		    var goTo1 = this.getAttribute("href"); // store anchor href
+		    var goTo = this.getAttribute("href"); // store anchor href
 		    $(".load-bg").show();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo1;
+		       window.location = goTo;
 		    },3500);
 		});
 		$('.close-button-index').click(function (e) {
@@ -91,12 +91,12 @@ $(document).ready(function() {
 	else {
 	   $('.logo-link').click(function (e) {
 		    e.preventDefault();// prevent default anchor behavior
-		    var goTo2 = this.getAttribute("href"); // store anchor href
+		    var goTo = this.getAttribute("href"); // store anchor href
 		    $(".load-bg").show();
 		    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 		    // do something while timeOut ticks ...
 		    setTimeout(function(){
-		       window.location = goTo2;
+		       window.location = goTo;
 		    },3500);
 		});
 	 }
@@ -104,15 +104,15 @@ $(document).ready(function() {
 
 
 
-//	$('.logo-contact-link').click(function (e) {
-//	    e.preventDefault();// prevent default anchor behavior
-//	    var goTo = this.getAttribute("href"); // store anchor href
-//	    $(".load-bg").show();
-//	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	$('.logo-contact-link').click(function (e) {
+	    e.preventDefault();// prevent default anchor behavior
+	    var goTo = this.getAttribute("href"); // store anchor href
+	    $(".load-bg").show();
+	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 	   
 	    // do something while timeOut ticks ...
-//	    setTimeout(function(){
-//	       window.location = goTo;
-//	    },3500);
-//	});
+	    setTimeout(function(){
+	       window.location = goTo;
+	    },3500);
+	});
 });
