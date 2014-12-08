@@ -20,19 +20,7 @@ $(document).ready(function() {
 //	c.setAttribute('data-useragent',  navigator.userAgent);
 //	c.setAttribute('data-platform', navigator.platform );
 //	c.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
-	
-	$('body').smoothWheel()
 
-	$('.fish-link').click(function (e) {
-	    e.preventDefault();// prevent default anchor behavior
-	    var goTo = this.getAttribute("href"); // store anchor href
-	    $(".load-bg").show();
-	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
-	    // do something while timeOut ticks ...
-	    setTimeout(function(){
-	       window.location = goTo;
-	    },3500);
-	});
 
 	$('form').submit(function(){
 		setTimeout(function() {
@@ -103,16 +91,4 @@ $(document).ready(function() {
 
 
 
-
-	$('.logo-contact-link').click(function (e) {
-	    e.preventDefault();// prevent default anchor behavior
-	    var goTo = this.getAttribute("href"); // store anchor href
-	    $(".load-bg").show();
-	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
-	   
-	    // do something while timeOut ticks ...
-	    setTimeout(function(){
-	       window.location = goTo;
-	    },3500);
-	});
 });
