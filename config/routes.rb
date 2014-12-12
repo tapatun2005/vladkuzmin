@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/portfolio' => 'pages#portfolio'
 
   get '/works' => 'pages#works'
+  get '/index' => 'pages#index_2'
 
   match '/contacts', to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]

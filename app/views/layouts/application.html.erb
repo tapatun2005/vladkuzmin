@@ -3,14 +3,28 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vlad Kuzmin Design</title>
+	<link rel="stylesheet" href="css/style.css">
+<%
+=begin %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+<%
+=end%>
+
 </head>
 <body>
+	
+	<%= yield %>
+<%
+=begin %>
 	<div class="content-wrap">
 		<%= yield %>
 		<div class="clearfix"></div>
 	</div>
+<%
+=end%>
+
 </body>
 </html>

@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def works
   end
+
+  def index_2
+  	
+  end
 end
