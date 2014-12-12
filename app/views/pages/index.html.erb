@@ -1,4 +1,39 @@
 <%=render 'mobilemenu'%>
+
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+				scrollBar: true
+			});
+		});
+	</script>
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>Enable Your Scroll Bar!</h1>
+			<p>The perfect combination!</p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			<h1>Great User Experience!</h1>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<%
+=begin %>
+
 	<div class="above">
 		<div class="logo">
 		<%=link_to contacts_path, :class => 'logo-link' do %>
@@ -19,6 +54,11 @@
 	<%=render "svg/head"%>
 	<%=render "svg/fishes"%>		
 </div>
+
+
+<%
+=end%>
+
 <div class="load-bg"></div>
 <div class="close-button-index">
 	<span></span>
