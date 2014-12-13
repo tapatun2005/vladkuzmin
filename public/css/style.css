@@ -32,13 +32,13 @@ section.moveup {
 
 /*ABOVE SECTION - LOGO */
 
-.above .logo {
+.above .logo,
+.logo-contact {
 	cursor: pointer;
 	display: block;
 	position: absolute;
 	max-width: 109px;
 	top:-110%;
-	right: 75px;
 	text-align: center;
 	z-index: 1;
 	animation: logo-appearance 2s forwards 1.5s;
@@ -47,6 +47,18 @@ section.moveup {
 	-o-animation: logo-appearance 2s forwards 1.5s;
 	-ms-animation: logo-appearance 2s forwards 1.5s;
 }
+
+	.above .logo {
+		right: 75px;
+	}
+	.logo-contact {
+		left: 50%;
+		transform:translate(-63%);
+		-webkit-transform:translate(-63%);
+		-moz-transform:translate(-63%);
+		-o-transform:translate(-63%);
+		-ms-transform:translate(-63%);
+	}
 
 	@keyframes logo-appearance {
 			0% {
@@ -88,6 +100,7 @@ section.moveup {
 				top: 0%;
 			}
 		}
+
 
 	#logo {
 		display: block;
@@ -308,3 +321,74 @@ section.moveup {
 		.fish-link {
 			cursor: pointer;
 		}
+
+
+/*CONTACT FORM*/
+
+.contact-form {
+	display: block;
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	left:0;
+	right:0;
+	top: 200px;
+}
+	.contact-form form {
+		display: block;
+		width: 40%;
+		margin: auto;
+		background-image:url("../images/hook.png");
+		background-repeat: no-repeat;
+		background-position: 96% 94%;
+		background-size: 38px;
+		margin-bottom: 40px;
+	}
+		.contact-form h1,
+		.contact-form h2,
+		.contact-form h3,
+		.contact-form h4,
+		.contact-form h5,
+		.contact-form h6 {
+			color:#000;
+			text-align: center;
+		}
+
+		.contact-form form input[type="text"],
+		.contact-form form input[type="email"],
+		.contact-form form textarea {
+			color: #fff;
+			border: 5px solid #000;
+			background: #000;
+			width:100%;
+			min-width: 100%;
+			margin-bottom: 20px;
+			padding: 10px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		.contact-form form textarea{
+			max-width: 40%;
+		}
+		.contact-form form input[type="submit"] {
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			padding: 10px 40px;
+			border: none;
+			background: none;
+			display: block;
+			width: 100%;
+			max-width: 153px;	
+			height: 82px;
+			background-image:url("../images/fish.png");
+			-ms-transition: all 2s ease-in-out;
+			  -webkit-transition: all 2.5s ease-in-out;
+			  -moz-transition: all 2.5s ease-in-out;
+			  -o-transition: all 2.5s ease-in-out;
+			  transition: all 2.5s ease-in-out;
+			  background-size: 100%;
+		}
+				
+			.submit-move {
+				margin-left: 65%;
+			}

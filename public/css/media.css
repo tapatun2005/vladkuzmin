@@ -17,6 +17,26 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.contact-form form {
+		width: 75%;
+	}
+	#rainbow {
+		left:-10%;
+	}
+
+	.contact-form form input[type="submit"] {
+		max-width: 80px;	
+		height: 43px;
+		background-image:url("../images/fish.png");
+	}
+	.contact-form form {
+		background-position: 96% 94%;
+		background-size: 25px;
+	}
+}
+
+
 @media screen and (max-width: 980px) {
 	#fishes {
 		width: 100%;
