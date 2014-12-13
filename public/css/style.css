@@ -7,7 +7,6 @@ body, html {
 	width:100%;
 	height: 100%;
 	color:#000;
-	background: #000; 
 }
 
 a {
@@ -18,6 +17,7 @@ a {
 .clearfix {
 	clear: both;
 }
+
 section.section-home {
 	position: relative;
 	display: block;
@@ -36,7 +36,7 @@ section.moveup {
 	position: absolute;
 	width:100%;
 	height: 100%;
-	overflow: hidden !important;
+	overflow: hidden;
 }
 
 .above .logo,
@@ -819,7 +819,6 @@ section.social {
 		-moz-transform:translate(-50%,-50%);
 		-o-transform:translate(-50%,-50%);
 		-ms-transform:translate(-50%,-50%);
-		background: none !important;
 	}
 
 
