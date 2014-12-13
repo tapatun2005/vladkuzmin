@@ -31,14 +31,6 @@ section.moveup {
 
 /*ABOVE SECTION - LOGO */
 
-.above {
-	display: block;
-	position: absolute;
-	width:100%;
-	height: 100%;
-	overflow: hidden;
-}
-
 .above .logo,
 .logo-contact {
 	cursor: pointer;
@@ -824,32 +816,3 @@ section.social {
 
 
 /*WORKS*/
-
-.portfolio-list {
-	margin-top: 200px;
-	display: block;
-	width: 100%;
-	padding: 20px;
-	text-align: center;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-}
-
-	.portfolio-list a {
-		text-decoration: none;
-		color: #000;
-	}
-		.portfolio-item {
-			display: block;
-			position: relative;
-			margin: 40px 0;
-		}
-
-
-			.portfolio-item h5 {
-				margin:0;
-			}
-			.portfolio-item img {
-				width: 100%;
-				max-width: 150px;
-			}
