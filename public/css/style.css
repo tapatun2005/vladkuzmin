@@ -1,3 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
 body, html {
-	overflow-x:hidden; 
+	font-family:'Oswald','Bebas Neue', Arial, sans-serif;
+	overflow-x:hidden;
+	margin:0;
+	height: 100%;
 }
+
+a {
+	text-decoration: none;
+	color:#000;
+}
+
+section.section-home {
+	position: relative;
+	display: block;
+	width:100%;
+	height: 100%;
+}
+
+/*ABOVE SECTION - LOGO */
+
+.above .logo {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	max-width: 109px;
+	top:-110%;
+	right: 75px;
+	text-align: center;
+	z-index: 1;
+	animation: logo-appearance 2s forwards 1.5s;
+	-webkit-animation: logo-appearance 2s forwards 1.5s;
+	-moz-animation: logo-appearance 2s forwards 1.5s;
+	-o-animation: logo-appearance 2s forwards 1.5s;
+	-ms-animation: logo-appearance 2s forwards 1.5s;
+}
+
+	@keyframes logo-appearance {
+			0% {
+				top:-110%;
+			}
+			100% {
+				top: -8px;
+			}
+		}
+		@-webkit-keyframes logo-appearance {
+			0% {
+				top:-100%;
+			}
+			100% {
+				top: 0%;
+			}
+		}
+		@-moz-keyframes logo-appearance {
+			0% {
+				top:-110%;
+			}
+			100% {
+				top: -8px;
+			}
+		}
+		@-o-keyframes logo-appearance {
+			0% {
+				top:-100%;
+			}
+			100% {
+				top: 0%;
+			}
+		}
+		@-ms-keyframes logo-appearance {
+			0% {
+				top:-100%;
+			}
+			100% {
+				top: 0%;
+			}
+		}
+
+	#logo {
+		display: block;
+		width: 100%;
+		max-width: 109px;
+		position: relative;
+	}
+		.logo span,
+		.logo-contact span {
+			margin-left: 30px;
+		}
+
+		.logo .logo-title,
+		.logo-contact .logo-title {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: .9em;
+			display: block;
+		}
+
+		.logo .logo-subtitle,
+		.logo-contact .logo-subtitle {
+			text-transform: uppercase;
+			font-size: .7em;
+			display: block;
+		}
+
+
+/*WELCOME MESSAGE*/
+
+.welcome-message {
+	display: block;
+	position: absolute;
+	text-transform: uppercase;
+	text-align: right;
+	top:50%;
+	right: -100%;
+	overflow: hidden;
+	z-index: 1;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	animation: welcome-message 2s forwards 1.5s;
+	-webkit-animation: welcome-message 2s forwards 1.5s;
+	-moz-animation: welcome-message 2s forwards 1.5s;
+	-o-animation: welcome-message 2s forwards 1.5s;
+	-ms-animation: welcome-message 2s forwards 1.5s;
+}
+
+	@keyframes welcome-message {
+		0% {
+			right:-100%;
+		}
+		100% {
+			right: 65px;
+		}
+	}
+	@-webkit-keyframes welcome-message {
+		0% {
+			right:-100%;
+		}
+		100% {
+			right: 65px;
+		}
+	}
+	@-moz-keyframes welcome-message {
+		0% {
+			right:-100%;
+		}
+		100% {
+			right: 65px;
+		}
+	}
+	@-o-keyframes welcome-message {
+		0% {
+			right:-100%;
+		}
+		100% {
+			right: 65px;
+		}
+	}
+	@-ms-keyframes welcome-message {
+		0% {
+			right:-100%;
+		}
+		100% {
+			right: 65px;
+		}
+	}
+.welcome-message .welcome-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4.5em;
+	margin-top: -20px;
+	margin-right:250px;
+	background: #fff;
+	padding: 0 10px;
+	display: block;
+	line-height: 1.5em;
+	animation: welcome-title 1.5s forwards 1s;
+	-webkit-animation: welcome-title 1.5s forwards 1s;
+	-moz-animation: welcome-title 1.5s forwards 1s;
+	-o-animation: welcome-title 1.5s forwards 1s;
+	-ms-animation: welcome-title 1.5s forwards 1s;
+}
+
+	@keyframes welcome-title {
+		0% {
+			margin-right:250px;
+		}
+		100% {
+			margin-right: 0px;
+		}
+	}
+	@-webkit-keyframes welcome-title {
+		0% {
+			margin-right:250px;
+		}
+		100% {
+			margin-right: 0px;
+		}
+	}
+	@-moz-keyframes welcome-title {
+		0% {
+			margin-right:250px;
+		}
+		100% {
+			margin-right: 0px;
+		}
+	}
+	@-o-keyframes welcome-title {
+		0% {
+			margin-right:250px;
+		}
+		100% {
+			margin-right: 0px;
+		}
+	}
+	@-ms-keyframes welcome-title {
+		0% {
+			margin-right:250px;
+		}
+		100% {
+			margin-right: 0px;
+		}
+	}
+
+.welcome-message .welcome-subtitle {
+	text-transform: uppercase;
+	font-size: 2em;
+	background: #fff;
+	padding: 0 10px;
+}
+
+
+
+/*RAINBOW SVG*/
+.rainbow {
+	display: block;
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+	#rainbow {
+		display: block;
+		position: absolute;
+		height: auto;
+		width: 100%;
+		max-height: 120%;
+		bottom: -2%;
+		trasform:translate(-25%,0%);
+		-webkit-trasform:translate(-25%,0%);
+		-moz-trasform:translate(-25%,0%);
+		-o-trasform:translate(-25%,0%);
+		-ms-trasform:translate(-25%,0%);
+		z-index: 0;
+		overflow-x:hidden;
+		left:-5%;
+	}

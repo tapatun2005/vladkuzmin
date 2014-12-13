@@ -3,12 +3,19 @@
 body, html  {
 	font-family:'Oswald','Bebas Neue','bebas_neueregular', arial, sans-serif;
 	overflow-x: hidden;
-	background: #000;
-	
+	margin:0;
 }
 .clearfix {
 	clear: both;
 }
+
+section.home {
+	position: relative;
+	display: block;
+	width:100%;
+	height: 100%;
+}
+
 
 .content-wrap {
 	position: absolute;
@@ -52,7 +59,7 @@ body, html  {
 				font-size: 1.2em;
 			}
 
-.above {
+/*.above {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -64,7 +71,7 @@ body, html  {
 	height: 100%;
 	margin-top: -5%;
 	clear: both;
-}
+}*/
 	
 	.logo {
 		right: 75px;

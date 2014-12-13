@@ -1,7 +1,7 @@
 <%=render 'mobilemenu'%>
 
 
-
+<section class="home">
 	<div class="above">
 		<div class="logo">
 			<%=link_to contacts_path, :class => 'logo-link' do %>
@@ -18,10 +18,14 @@
 		<%=render "svg/rainbow" %>
 	<!-- END ABOVE -->
 	</div>
-<div class="under">
-	<%=render "svg/head"%>
-	<%=render "svg/fishes"%>		
-</div>
+</section>
+
+<section class="home">
+	<div class="under">
+		<%=render "svg/head"%>
+		<%=render "svg/fishes"%>		
+	</div>
+</section>
 
 <div class="load-bg"></div>
 <div class="close-button-index">
