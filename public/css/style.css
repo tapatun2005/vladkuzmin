@@ -324,7 +324,7 @@ section.moveup {
 
 /*CONTACT FORM*/
 
-/*
+
 .contact-form {
 	display: block;
 	position: absolute;
@@ -392,11 +392,11 @@ section.moveup {
 			.submit-move {
 				margin-left: 65%;
 			}
-*/
+
 
 /*PORTFOLIO TEMPLATE*/
 
-/*
+
 
 section.section-portfolio {
 	display: block;
@@ -650,11 +650,11 @@ section.section-portfolio {
 			}
 		}
 
-*/
+
 
 /*Illuminator*/
 
-/*.illuminator {
+.illuminator {
 	position: fixed;
 	top:50%;
 	left:50%;
@@ -818,11 +818,10 @@ section.social {
 		-ms-transform:translate(-50%,-50%);
 	}
 
-*/
 
 /*WORKS*/
 
-/*.portfolio-list {
+.portfolio-list {
 	margin-top: 200px;
 	display: block;
 	width: 100%;
@@ -849,5 +848,3 @@ section.social {
 				width: 100%;
 				max-width: 150px;
 			}
-
-*/
