@@ -393,6 +393,9 @@ section.moveup {
 			}
 
 /*PORTFOLIO TEMPLATE*/
+
+/*
+
 section.section-portfolio {
 	display: block;
 	width:100%;
@@ -645,11 +648,11 @@ section.section-portfolio {
 			}
 		}
 
-
+*/
 
 /*Illuminator*/
 
-.illuminator {
+/*.illuminator {
 	position: fixed;
 	top:50%;
 	left:50%;
@@ -813,11 +816,11 @@ section.social {
 		-ms-transform:translate(-50%,-50%);
 	}
 
-
+*/
 
 /*WORKS*/
 
-.portfolio-list {
+/*.portfolio-list {
 	margin-top: 200px;
 	display: block;
 	width: 100%;
@@ -844,3 +847,5 @@ section.social {
 				width: 100%;
 				max-width: 150px;
 			}
+
+*/
