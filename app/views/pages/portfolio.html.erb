@@ -1,13 +1,7 @@
-<%
-=begin%>
-
 <%= render 'svg/fishportfoliobehind' %>
 <div class="zindex-2">
 	<%= render 'svg/fishportfolio' %>
 </div>
-
-<%
-=end%>
 
 <section class="section-portfolio">
 	<div class="portfolio-content">
@@ -25,7 +19,6 @@
 		<%=image_tag "crybabycry-tshirt.png", :class => "second" %>
 	</div>
 </section>
-<section class="section-portfolio"></section>
 <div class="bubbles">
 	<div class="bubble bubble-one"></div>
 	<div class="bubble bubble-two"></div>
@@ -38,12 +31,14 @@
 		<span></span>
 	</div>
 <% end %>
-<div class="share">
-	<h1>THANK YOU!</h1>
-	<div class="social-buttons">
-		<a href=""><%=image_tag "facebook.png" %></a>
-		<a href=""><%=image_tag "twitter.png" %></a>
-		<a href=""><%=image_tag "pinterest.png" %></a>
+<section class="social">
+	<div class="share">
+		<h1>THANK YOU!</h1>
+		<div class="social-buttons">
+			<a href=""><%=image_tag "facebook.png" %></a>
+			<a href=""><%=image_tag "twitter.png" %></a>
+			<a href=""><%=image_tag "pinterest.png" %></a>
+		</div>
+		<h4>Visit the website</h4>
 	</div>
-	<h4>Visit the website</h4>
-</div>
+</section>
