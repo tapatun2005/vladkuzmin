@@ -12,6 +12,9 @@
 	.content-wrap section.section-home:last-child {
 		height: 90%;
 	}
+	.under {
+    	height: 90%;
+	}
 }
 
 @media screen and (max-width: 480px) {
