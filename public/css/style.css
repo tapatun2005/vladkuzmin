@@ -32,6 +32,12 @@ section.section-home {
 	width:100%;
 	height: 100%; 
 }
+section.section-home-2 {
+	position: relative;
+	display: block;
+	width:100%;
+	height: 90%; 
+}
 
 section.moveup {
 	margin-top: -5%;
