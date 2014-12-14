@@ -9,6 +9,9 @@
 		-o-transform:translate(-50%);
 		-ms-transform:translate(-50%);
 	}
+	.content-wrap section.section-home:last-child {
+		height: 90%;
+	}
 }
 
 @media screen and (max-width: 480px) {
