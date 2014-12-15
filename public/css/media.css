@@ -24,6 +24,7 @@
 	#rainbow {
 		left:-65%;
 		width: 200%;
+		bottom:0;
 	}
 
 	.contact-form form input[type="submit"] {
