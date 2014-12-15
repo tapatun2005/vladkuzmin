@@ -450,11 +450,13 @@ section.section-portfolio {
 		}
 
 
-.portfolio-content {
+.portfolio-content,
+.portfolio-intro {
 	text-align: center;
 	padding-left:10%;
 	padding-right:10%;
 	position: absolute;
+	width: 85%;
 	top:50%;
 	left:50%;
 	-webkit-transform: translate(-50%,-50%);
@@ -462,7 +464,10 @@ section.section-portfolio {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-
+	
+	.portfolio-intro img {
+		width:40%;
+	}
 	.portfolio-content img {
 		width:100%;
 	}

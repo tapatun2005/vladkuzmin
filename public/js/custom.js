@@ -19,13 +19,12 @@ $(document).ready(function() {
 	});
 
 
-
-	$('.illuminator').animate({"border":"5000px solid #000"});
+//PORTFOLIO PAGE//
 	if (window.matchMedia("(min-width: 920px)").matches) {
-	  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
-	} 
-	else {
-	  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
+		  $('.illuminator').css({"width":"50%", "padding-top":"50%"},2000);
+		} 
+		else {
+		  $('.illuminator').css({"width":"90%", "padding-top":"90%"},2000);
 	}
 	$('.a-close-button').click(function (e) {
 	    e.preventDefault();                   // prevent default anchor behavior
@@ -34,7 +33,7 @@ $(document).ready(function() {
 
 	    // do something while timeOut ticks ...
 
-	    $(".illuminator").animate({"width":"0%", "padding-top":"0%"},2000);
+	    $(".illuminator").css({"width":"0%", "padding-top":"0%"},2000);
 	    $(".share").css({"opacity":"0"});
 	    setTimeout(function(){
 	       window.location = goTo;
