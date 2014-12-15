@@ -31,8 +31,8 @@ $(document).ready(function() {
 	    $(this).fadeOut();
 	    var goTo = this.getAttribute("href"); // store anchor href
 	    // do something while timeOut ticks ...
-	    $(".illuminator").css({"width":"0%", "padding-top":"0%"},2000);
-	    $(".share").css({"opacity":"0"});
+	    $(".illuminator").animate({"width":"0%", "padding-top":"0%"},2000);
+	    $(".share").animate({"opacity":"0"});
 	    setTimeout(function(){
 	       window.location = goTo;
 	    },3500);
