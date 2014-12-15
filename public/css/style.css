@@ -276,12 +276,13 @@ section.moveup {
 
 
 /*RAINBOW SVG*/
+
 .rainbow {
 	display: block;
 	position: absolute;
 	width:100%;
 	height: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 	#rainbow {
 		display: block;

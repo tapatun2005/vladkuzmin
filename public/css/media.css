@@ -21,11 +21,8 @@
 	.contact-form form {
 		width: 75%;
 	}
-	.rainbow {
-		overflow: hidden;
-	}
 	#rainbow {
-		left:-10%;
+		left:-65%;
 		width: 200%;
 	}
 
