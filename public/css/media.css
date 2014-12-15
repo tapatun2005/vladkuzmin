@@ -27,6 +27,11 @@
 		bottom:0;
 	}
 
+	section.moveup {
+		margin-top: -12%;
+	}
+
+
 	.contact-form form input[type="submit"] {
 		max-width: 80px;	
 		height: 43px;
