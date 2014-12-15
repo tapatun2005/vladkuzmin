@@ -685,9 +685,9 @@ section.section-portfolio {
 	  -o-transition: all 1s ease-in-out;
 	  transition: all 1s ease-in-out;
 	height: auto;
-	width: 40%;
+	width: 0%;
 	overflow: auto;
-	padding-top: 40%;
+	padding-top: 0%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
