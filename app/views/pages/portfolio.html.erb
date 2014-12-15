@@ -3,6 +3,12 @@
 	<%= render 'svg/fishportfolio' %>
 </div>
 
+<div class="bubbles">
+	<div class="bubble bubble-one"></div>
+	<div class="bubble bubble-two"></div>
+	<div class="bubble bubble-three"></div>
+</div>
+
 <section class="section-portfolio">
 	<div class="portfolio-intro">
 		<%=image_tag "crybabycry-logo.png" %>
@@ -19,18 +25,7 @@
 		<%=image_tag "crybabycry-tshirt.png", :class => "second" %>
 	</div>
 </section>
-<div class="bubbles">
-	<div class="bubble bubble-one"></div>
-	<div class="bubble bubble-two"></div>
-	<div class="bubble bubble-three"></div>
-</div>
 <div class="illuminator"></div>
-<%=link_to root_path, class: "a-close-button" do %>
-	<div class="close-button">
-		<span></span>
-		<span></span>
-	</div>
-<% end %>
 <section class="social">
 	<div class="share">
 		<h1>THANK YOU!</h1>
@@ -42,3 +37,9 @@
 		<h4>Visit the website</h4>
 	</div>
 </section>
+<%=link_to root_path, class: "a-close-button" do %>
+	<div class="close-button">
+		<span></span>
+		<span></span>
+	</div>
+<% end %>
