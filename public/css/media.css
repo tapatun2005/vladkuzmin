@@ -23,6 +23,7 @@
 	}
 	#rainbow {
 		left:-10%;
+		width: 200%;
 	}
 
 	.contact-form form input[type="submit"] {
