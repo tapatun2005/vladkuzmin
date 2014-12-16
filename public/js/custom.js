@@ -44,7 +44,7 @@ $(document).ready(function() {
 //MENU//
 
 
-	if (window.matchMedia('(max-width: 550px)').matches) {
+	if (window.matchMedia("(max-width: 550px)").matches) {
 	    $('.logo-link').click(function (e) {
 	    	//$(this).removeAttr("href");
 		    e.preventDefault();// prevent default anchor behavior
