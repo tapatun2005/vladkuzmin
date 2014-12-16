@@ -6,8 +6,8 @@ $(document).ready(function() {
 	setTimeout(function(){
        $('.load-bg').fadeOut();
     },2000);
-
-    $('.fish-link').click(function (e) {
+    
+    $('a, .fish-link').click(function (e) {
 	    e.preventDefault();// prevent default anchor behavior
 	    var goTo = this.getAttribute("href"); // store anchor href
 	    $(".load-bg").show();
@@ -17,7 +17,6 @@ $(document).ready(function() {
 	       window.location = goTo;
 	    },3500);
 	});
-
 
 //PORTFOLIO PAGE//
 //	if (window.matchMedia("(min-width: 920px)").matches) {
@@ -110,4 +109,6 @@ $('form').submit(function(){
 	   	$(".submit").addClass('submit-move');
 	});
 
+=======
+>>>>>>> 4e11cf66dfb5be645e3763fe64e14c48c9c7078f
 });
