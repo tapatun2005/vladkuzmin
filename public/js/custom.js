@@ -46,7 +46,7 @@ $(document).ready(function() {
 
 	if (window.matchMedia('(max-width: 550px)').matches) {
 	    $('.logo-link').click(function (e) {
-	    	$(this).removeAttr("href");
+	    	//$(this).removeAttr("href");
 		    e.preventDefault();// prevent default anchor behavior
 		    $(".close-button-index").show();
 		    $(".menu-mobile").show();
