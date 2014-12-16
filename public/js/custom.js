@@ -6,7 +6,7 @@ $(document).ready(function() {
 	setTimeout(function(){
        $('.load-bg').fadeOut();
     },2000);
-    
+
     $('a, .fish-link').click(function (e) {
 	    e.preventDefault();// prevent default anchor behavior
 	    var goTo = this.getAttribute("href"); // store anchor href
@@ -108,7 +108,4 @@ $('form').submit(function(){
 	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
 	   	$(".submit").addClass('submit-move');
 	});
-
-=======
->>>>>>> 4e11cf66dfb5be645e3763fe64e14c48c9c7078f
 });
