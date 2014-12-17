@@ -82,12 +82,12 @@ $(document).ready(function(){
 
 
 //PORTFOLIO PAGE//
-	if (window.matchMedia("(min-width: 920px)").matches) {
-		  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
+	if (window.matchMedia("(max-width: 920px)").matches) {
+		  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
 		} 
 		else {
-		  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
-	};
+			$('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
+		};
 	$('.a-close-button').click(function (e) {
 	    e.preventDefault();                   // prevent default anchor behavior
 	    $(this).fadeOut();
