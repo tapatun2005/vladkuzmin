@@ -79,34 +79,34 @@ $(document).ready(function() {
 		       window.location = goTo;
 		    },3500);
 		});
-	 }
+	 };
 
 
 //PORTFOLIO PAGE//
-//	if (window.matchMedia("(min-width: 920px)").matches) {
-//		  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
-//		} 
-//		else {
-//		  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
-//	}
-//	$('.a-close-button').click(function (e) {
-//	    e.preventDefault();                   // prevent default anchor behavior
-//	    $(this).fadeOut();
-//	    var goTo = this.getAttribute("href"); // store anchor href
-//	    // do something while timeOut ticks ...
-//	    $(".illuminator").animate({"width":"0%", "padding-top":"0%"},2000);
-//	    $(".share").animate({"opacity":"0"});
-//	    setTimeout(function(){
-//	       window.location = goTo;
-//	    },3500);
-//	});
+	if (window.matchMedia("(min-width: 920px)").matches) {
+		  $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
+		} 
+		else {
+		  $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
+	};
+	$('.a-close-button').click(function (e) {
+	    e.preventDefault();                   // prevent default anchor behavior
+	    $(this).fadeOut();
+	    var goTo = this.getAttribute("href"); // store anchor href
+	    // do something while timeOut ticks ...
+	    $(".illuminator").animate({"width":"0%", "padding-top":"0%"},2000);
+	    $(".share").animate({"opacity":"0"});
+	    setTimeout(function(){
+	       window.location = goTo;
+	    },3500);
+	});
 
-enquire.register("screen and (min-width:920px)", function() {
-    $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
-});
-enquire.register("screen and (max-width:919px)", function() {
-    $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
-});
+//enquire.register("screen and (min-width:920px)", function() {
+//    $('.illuminator').animate({"width":"50%", "padding-top":"50%"},2000);
+//});
+//enquire.register("screen and (max-width:919px)", function() {
+//    $('.illuminator').animate({"width":"90%", "padding-top":"90%"},2000);
+//});
 
 
 
