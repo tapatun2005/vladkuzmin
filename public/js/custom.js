@@ -1,7 +1,6 @@
 //LOADING PAGE//
-$(document).ready(function() {
-	
-	$('body, html').css({"background":"none"})
+$(document).ready(function(){
+	$('body, html').css({"background":"none"});
 	$('.load-bg').animate({"width":"250%", "padding-top":"250%"});
 	setTimeout(function(){
        $('.load-bg').fadeOut();
