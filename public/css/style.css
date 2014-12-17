@@ -1198,6 +1198,7 @@ section.section-portfolio {
 			}
 		}
 
+/*
 section.social {
 	display: block;
 	width:100%;
@@ -1217,6 +1218,28 @@ section.social {
 		-moz-transform:translate(-50%,-50%);
 		-o-transform:translate(-50%,-50%);
 		-ms-transform:translate(-50%,-50%);
+	}
+*/
+
+.share {
+	position: fixed;
+	width: auto;
+	top:120%;
+	left:50%;
+	text-align: center;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-ms-transition: all 1s ease-in-out;
+	  -webkit-transition: all 1s ease-in-out;
+	  -moz-transition: all 1s ease-in-out;
+	  -o-transition: all 1s ease-in-out;
+	  transition: all 1s ease-in-out;
+}
+	.scroll-bottom {
+		top:50%;
 	}
 
 

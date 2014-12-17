@@ -105,6 +105,15 @@ $(document).ready(function() {
 
 
 
+$(window).scroll(function() {
+    if ($(document).height() - 150 <= ($(window).height() + $(window).scrollTop())) {
+        $(".share").addClass("scroll-bottom");
+    }
+    else {
+    	$(".share").removeClass("scroll-bottom");
+    }
+});
+
 
 //FORM//
 $('form').submit(function(){
