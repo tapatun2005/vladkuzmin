@@ -25,7 +25,7 @@ gem 'mail_form'
 gem 'simple_form'
 
 
-group :development, :test
+group :development, :test do
 	gem 'sqlite3'
 end
 
