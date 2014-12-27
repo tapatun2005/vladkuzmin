@@ -118,6 +118,7 @@ enquire.register("screen and (max-width:550px)", function() {
 	    // store anchor href
 	    $(".load-bg").fadeIn();
 	    $('.load-bg').animate({"width":"0%", "padding-top":"0%"});
+	    return false;
 	});
 	$('.menu-link').click(function (e) {
 	    e.preventDefault();// prevent default anchor behavior
