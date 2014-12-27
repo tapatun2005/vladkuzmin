@@ -109,9 +109,9 @@ enquire.register("screen and (max-width:919px)", function() {
 
 enquire.register("screen and (max-width:550px)", function() {
     $('.logo-link').click(function (e) {
-    	//$('.logo-link').removeAttr("href");
-    	$(this).attr("href", "");
-	    e.preventDefault();// prevent default anchor behavior
+    	 e.preventDefault();// prevent default anchor behavior
+    	$('.logo-link').removeAttr("href");
+	   
 	    $(".close-button-index").show();
 	    $(".menu-mobile").show();
 	    $('.menu-mobile').animate({"width":"75%", "padding-top":"75%", "border-radius":"50%"}, 2500);
