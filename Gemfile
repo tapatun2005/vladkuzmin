@@ -24,7 +24,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'mail_form'
 gem 'simple_form'
 
-gem 'sqlite3'
+
+group :development, :test
+	gem 'sqlite3'
+end
 
 
 group :production, :staging do
