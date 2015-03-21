@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get '/contact' => 'pages#contact'
 
   get '/portfolio' => 'pages#portfolio'
+  get '/bhf' => 'pages#bhf'
+  get '/crybabycry' => 'pages#crybabycry'
+  get '/skybet' => 'pages#skybet'
 
   get '/works' => 'pages#works'
   get '/index' => 'pages#index_2'

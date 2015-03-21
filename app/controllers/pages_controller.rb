@@ -2,16 +2,16 @@ class PagesController < ApplicationController
   def index
   end
 
-  def contact
+  def crybabycry
   end
 
-  def portfolio
+  def skybet
+  end
+
+  def bhf
   end
 
   def works
   end
 
-  def index_2
-  	
-  end
 end
