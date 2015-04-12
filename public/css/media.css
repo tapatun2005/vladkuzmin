@@ -2,8 +2,9 @@
 	#head {
 		width: auto;
 		height: 100%;
+		max-height: auto;
 		left:50%;
-		transition:height 1s ease;
+		transition: height 1s ease;
 		transform:translate(-50%);
 		-webkit-transform:translate(-50%);
 		-moz-transform:translate(-50%);
