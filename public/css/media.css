@@ -53,13 +53,23 @@
 }
 
 
+@media screen and (max-width: 920px) {
+	.portfolio-content,
+	.portfolio-intro {
+		width: 95%;
+	}
+}
+
 @media screen and (max-width: 980px) {
 	#fishes {
 		width: 100%;
 	}
 }
 
+
+
 @media only screen and (min-width: 920px) {
+	
 	.portfolio-content {
 		width:60%;
 	}
