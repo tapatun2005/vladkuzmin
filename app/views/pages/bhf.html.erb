@@ -12,7 +12,7 @@
 <section class="section-portfolio">
 	<div class="portfolio-intro">
 		<%=image_tag "bhf-logo.png" %>
-		<h3>PRINT DESIGN</h3>
+		<h3>Print Design</h3>
 	</div>
 </section>
 <section class="section-portfolio">
@@ -61,12 +61,21 @@
 			<a href=""><%=image_tag "twitter.png" %></a>
 			<a href=""><%=image_tag "pinterest.png" %></a>
 		</div>
-		<h4>Visit the website</h4>
+		<!-- <h4>Visit the website</h4> -->
 	</div>
 </section>
 <%=link_to root_path, class: "a-close-button" do %>
 	<div class="close-button">
 		<span></span>
 		<span></span>
+	</div>
+<% end %>
+
+<%=link_to brainonpoker_path, class: 'a-close-button' do %>
+	<div class="nav-arrow">
+			<div class="right">
+				<span></span>
+				<span></span>
+			</div>
 	</div>
 <% end %>

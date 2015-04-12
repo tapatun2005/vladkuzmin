@@ -1,11 +1,16 @@
 <%=render "pages/mobilemenu" %>
 
-<div class="logo-contact">
+<div class="logo-contact logo-move">
 	<%=link_to root_path, :class => 'logo-link' do %>
 		<%=  render "svg/logo" %>
 		<span class="logo-title">Vlad Kuzmin</span>
 		<span class="logo-subtitle">Web Designer</span>
 	<% end %>
+</div>
+<div class="logo-mobile center logo-move">
+	<%=  render "svg/logo" %>
+	<span class="logo-title">Vlad Kuzmin</span>
+	<span class="logo-subtitle">Web Designer</span>
 </div>
 <div class="contact-form">
 	<%= simple_form_for(@contact) do |f| %>

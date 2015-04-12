@@ -18,6 +18,15 @@
 }
 
 @media screen and (max-width: 767px) {
+	.logo-mobile {
+		display: block;
+	}
+
+	.logo-contact,
+	.above .logo {
+		display: none;
+	}
+
 	.contact-form form {
 		width: 75%;
 	}

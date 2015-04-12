@@ -2,18 +2,24 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
-  get '/contact' => 'pages#contact'
+ # resources 'pages'
 
-  get '/portfolio' => 'pages#portfolio'
-  get '/bhf' => 'pages#bhf'
-  get '/crybabycry' => 'pages#crybabycry'
-  get '/skybet' => 'pages#skybet'
+  get 'contact' => 'pages#contact'
+  get 'bhf' => 'pages#bhf'
+  get 'crybabycry' => 'pages#crybabycry'
+  get 'skybet' => 'pages#skybet'
+  get 'brainonpoker' => 'pages#brainonpoker'
+  get 'yournations' => 'pages#yournations'
+  get 'austravel' => 'pages#austravel'
+  get 'caravantripper' => 'pages#caravantripper'
+  get 'kenson' => 'pages#kenson'
+  get 'works' => 'pages#works'
 
-  get '/works' => 'pages#works'
-  get '/index' => 'pages#index_2'
 
   match '/contacts', to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]
+
+  #resources :pages
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

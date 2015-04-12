@@ -1,0 +1,70 @@
+<%= render 'svg/fishportfoliobehind' %>
+<div class="zindex-2">
+	<%= render 'svg/fishportfolio' %>
+</div>
+
+<div class="bubbles">
+	<div class="bubble bubble-one"></div>
+	<div class="bubble bubble-two"></div>
+	<div class="bubble bubble-three"></div>
+</div>
+
+<section class="section-portfolio">
+	<div class="portfolio-intro">
+		<%=image_tag "caravan-logo.png" %>
+		<h3>Front-End Development</h3>
+	</div>
+</section>
+<section class="section-portfolio">
+</section>
+<section class="section-portfolio">
+	<div class="portfolio-content">
+		<%=image_tag "caravan-welcome.png", :class => "first" %>
+	</div>
+</section>
+<section class="section-portfolio">
+</section>
+<section class="section-portfolio">
+	<div class="portfolio-content">
+		<%=image_tag "caravan-ipad.png", :class => "second" %>
+	</div>
+</section>
+<section class="section-portfolio">
+	<div class="portfolio-content">
+		<%=image_tag "caravan-imac.png", :class => "first" %>
+	</div>
+</section>
+<section class="section-portfolio">
+	<div class="portfolio-content">
+		<%=image_tag "caravan-final.png", :class => "second" %>
+	</div>
+</section>
+<section class="section-portfolio">
+</section>
+<div class="illuminator"></div>
+<section class="social">
+	<div class="share">
+		<h1>THANK YOU!</h1>
+		<div class="social-buttons">
+			<a href=""><%=image_tag "facebook.png" %></a>
+			<a href=""><%=image_tag "twitter.png" %></a>
+			<a href=""><%=image_tag "pinterest.png" %></a>
+		</div>
+		<h4><a href="http://www.caravantripper.co.uk/locations/map?loc=York" target="_blank">Visit the website</a></h4>
+	</div>
+</section>
+<%=link_to root_path, class: "a-close-button" do %>
+	<div class="close-button">
+		<span></span>
+		<span></span>
+	</div>
+<% end %>
+
+<%=link_to kenson_path, class: 'a-close-button' do %>
+	<div class="nav-arrow">
+			<div class="right">
+				<span></span>
+				<span></span>
+			</div>
+	</div>
+<% end %>

@@ -12,42 +12,37 @@
 <section class="section-portfolio">
 	<div class="portfolio-intro">
 		<%=image_tag "tt-logo.png" %>
-		<h3>FRONT-END DESIGN</h3>
+		<h3>Front-End Development <br> Branding</h3>
 	</div>
 </section>
 <section class="section-portfolio">
 </section>
 <section class="section-portfolio">
 	<div class="portfolio-content">
-		<%=image_tag "tt-mac.png", :class => "first" %>
+		<%=image_tag "tt-iphone-2.png", :class => "first" %>
 	</div>
 </section>
 <section class="section-portfolio">
 </section>
 <section class="section-portfolio">
 	<div class="portfolio-content">
-		<%=image_tag "tt-iphone.png", :class => "second" %>
+		<%=image_tag "tt-mac.png", :class => "second" %>
 	</div>
 </section>
 <section class="section-portfolio">
+	<div class="portfolio-content">
+		<%=image_tag "tt-iphone.png", :class => "first" %>
+	</div>
 </section>
+
 <section class="section-portfolio">
 	<div class="portfolio-content">
-		<%=image_tag "tt-mac-2.png", :class => "first" %>
+		<%=image_tag "tt-mac-2.png", :class => "second" %>
 	</div>
 </section>
 <section class="section-portfolio">
-</section>
-<section class="section-portfolio">
 	<div class="portfolio-content">
-		<%=image_tag "bhf-iphoneside-1.png", :class => "second" %>
-	</div>
-</section>
-<section class="section-portfolio">
-</section>
-<section class="section-portfolio">
-	<div class="portfolio-content">
-		<%=image_tag "bhf-iphoneside-2.png", :class => "first" %>
+		<%=image_tag "tt-ladscape.png", :class => "first" %>
 	</div>
 </section>
 <section class="section-portfolio">
@@ -61,12 +56,20 @@
 			<a href=""><%=image_tag "twitter.png" %></a>
 			<a href=""><%=image_tag "pinterest.png" %></a>
 		</div>
-		<h4>Visit the website</h4>
+		<h4><a href="http://www.skybet.com/cm/transfer-trends/" target="_blank"></a>Visit the website</h4>
 	</div>
 </section>
 <%=link_to root_path, class: "a-close-button" do %>
 	<div class="close-button">
 		<span></span>
 		<span></span>
+	</div>
+<% end %>
+<%=link_to yournations_path, class: 'a-close-button' do %>
+	<div class="nav-arrow">
+			<div class="right">
+				<span></span>
+				<span></span>
+			</div>
 	</div>
 <% end %>
