@@ -3,6 +3,7 @@
 		width: auto;
 		height: 100%;
 		left:50%;
+		transition:height 1s ease;
 		transform:translate(-50%);
 		-webkit-transform:translate(-50%);
 		-moz-transform:translate(-50%);
