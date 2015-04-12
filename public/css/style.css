@@ -1419,5 +1419,5 @@ section.social {
 	-webkit-transition: all 2s ease-in-out;
 	transition: all 2s ease-in-out;
 	pointer-events:none;
-	z-index: 99999;
+	z-index: 9998;
 }
