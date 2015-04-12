@@ -945,6 +945,7 @@
 	/*fill:rgba(255,255,255,1);*/
 	/*stroke:#000;*/
 	 transform: scale(1.2);
+	 -moz-transform: none;
 }
 
 .link-fish:hover path {

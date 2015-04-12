@@ -2,18 +2,19 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= metamagic %>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/svg-styles.css">
+  <link rel="stylesheet" href="css/media.css">
   <title>Vlad Kuzmin Design</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/svg-styles.css">
-	<link rel="stylesheet" href="css/media.css">
 <%
 =begin %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
   <%
 =end%>
+  <%= csrf_meta_tags %>
 
 
 </head>
