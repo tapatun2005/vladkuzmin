@@ -510,7 +510,7 @@ section.moveup {
 		.contact-form form textarea {
 			color: #fff;
 			border: 5px solid #000;
-			background: #000;
+			background-color: #000 !important;
 			width:100%;
 			min-width: 100%;
 			margin-bottom: 20px;
