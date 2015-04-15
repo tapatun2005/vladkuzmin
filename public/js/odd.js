@@ -9,7 +9,7 @@
 		$('.a-close-button').on('click', goLink);
 		$('.hello').on('click', goLink);
 		$('.close-button').on('click', goLink2);
-		$('form').on('submit', submitForm);
+		// $('form').on('submit', submitForm);
 		$('.logo-mobile').on('click', showMenu);
 		$('.menu-link').on('click', golinkMenu);
 		$('.close-button-index').on('click', hideMenu);
@@ -63,15 +63,15 @@
 	    },3500);
 	}
 
-	function submitForm(e) {
-		e.preventDefault();
-		setTimeout(function() {
-	    	$('form').submit();
-	  	},3500);
-	  	closeLoad();
-	  	logoMove();
-	   	$(".submit").addClass('submit-move');
-	}
+	// function submitForm(e) {
+	// 	e.preventDefault();
+	// 	setTimeout(function() {
+	//     	$('form').submit();
+	//   	},3500);
+	//   	closeLoad();
+	//   	logoMove();
+	//    	$(".submit").addClass('submit-move');
+	// }
 
 	function setIlluminator() {
 		$('.close-button').fadeIn(1000);
