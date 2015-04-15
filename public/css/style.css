@@ -526,6 +526,7 @@ section.moveup {
 			box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 			padding: 10px 40px;
+			cursor: pointer;
 			border: none;
 			background: none;
 			display: block;
