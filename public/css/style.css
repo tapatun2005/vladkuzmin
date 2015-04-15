@@ -521,7 +521,8 @@ section.moveup {
 		.contact-form form textarea{
 			max-width: 40%;
 		}
-		.contact-form form input[type="submit"] {
+		
+		.submit {
 			box-sizing: border-box;
 			-webkit-box-sizing: border-box;
 			padding: 10px 40px;

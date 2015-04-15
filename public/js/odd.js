@@ -4,6 +4,8 @@
 		setBg();
 		setLoad();
 		setIlluminator();
+		
+		submitForm();
 		$('.logo-link').on('click', goLink);
 		$('.fish-link').on('click', goLink);
 		$('.a-close-button').on('click', goLink);
@@ -63,15 +65,19 @@
 	    },3500);
 	}
 
-	// function submitForm(e) {
-	// 	e.preventDefault();
-	// 	setTimeout(function() {
-	//     	$('form').submit();
-	//   	},3500);
-	//   	closeLoad();
-	//   	logoMove();
-	//    	$(".submit").addClass('submit-move');
-	// }
+	
+	function submitForm(e) {
+		// e.preventDefault();
+		$('form').submit(function(){
+			setTimeout(function(){
+	    		$('form').submit();
+	  		},3500);
+	  		closeLoad();
+	  		logoMove();
+	   		$('.submit').addClass('submit-move');
+	   		console.log('hello');
+	   	});
+	}
 
 	function setIlluminator() {
 		$('.close-button').fadeIn(1000);
