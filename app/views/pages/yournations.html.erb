@@ -1,3 +1,18 @@
+<%
+	meta title: "Yournations - BWIN rugby image application",
+		description: "Yournations is a BWIN fan image application of Rugby Six Nations, designed by Vlad Kuzmin",
+     	keywords: %w(sixnations rugby england),
+     	og: {
+		  	image: "https://s3-eu-west-1.amazonaws.com/vladkuzmin-website/portfolio/facebook-yournations.jpg",
+		  	description: 'Yournations is a BWIN fan image application of Rugby Six Nations, designed by Vlad Kuzmin',
+		  	title: 'Yournations by Vlad Kuzmin'
+		},
+		twitter: {
+		  	card: "Yournations is an BWIN fan image application of Rugby Six Nations, designed by Vlad Kuzmin",
+		  	site: "@tapatun2005"
+		}
+%>
+
 <%= render 'svg/fishportfoliobehind' %>
 <div class="zindex-2">
 	<%= render 'svg/fishportfolio' %>
@@ -51,9 +66,9 @@
 	<div class="share">
 		<h1>THANK YOU!</h1>
 		<div class="social-buttons">
-			<a href=""><%=image_tag "facebook.png" %></a>
-			<a href=""><%=image_tag "twitter.png" %></a>
-			<a href=""><%=image_tag "pinterest.png" %></a>
+			<a href="https://facebook.com/sharer.php?u=http://www.vladkuzmin.com/yournations" target="_blank"><%=image_tag "facebook.png" %></a>
+			<a href="https://twitter.com/intent/tweet?url=http://www.vladkuzmin.com/yournations&text=Yournations%20-%20BWIN%20rugby%20fans%20application%20%20by%20Vlad%20Kuzmin&via=tapatun" target="_blank"><%=image_tag "twitter.png" %></a>
+			<a href="http://pinterest.com/pin/create/button/?url=http://www.vladkuzmin.com/yournations&description=Yournations%20-%20BWIN%20rugby%20fans%20application%20%20by%20Vlad%20Kuzmin&media=https://s3-eu-west-1.amazonaws.com/vladkuzmin-website/portfolio/facebook-yournations.jpg" target="_blank"><%=image_tag "pinterest.png" %></a>
 		</div>
 		<h4><a href="yournations.org" target="_blank">Visit the website</a></h4>
 	</div>
