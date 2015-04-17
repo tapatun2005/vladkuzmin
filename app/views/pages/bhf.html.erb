@@ -1,3 +1,19 @@
+<%
+	meta title: "British Heart Foundation - Heart of York",
+		description: "Heart of York - print design for the annual ride event in a wonderful city of York designed by Vlad Kuzmin",
+     	keywords: %w(York bhf ride),
+     	og: {
+		  	image: "https://s3-eu-west-1.amazonaws.com/vladkuzmin-website/portfolio/facebook-bhf.jpg",
+		  	description: 'Heart of York - an annual ride event in one of the most beautiful cities York. Designed by Vlad Kuzmin',
+		  	title: 'Heart of York Bike Ride by Vlad Kuzmin'
+		},
+		twitter: {
+		  	card: "Heart of York - an annual ride event in one of the most beautiful cities York by",
+		  	site: "@tapatun2005"
+		}
+%>
+
+
 <%= render 'svg/fishportfoliobehind' %>
 <div class="zindex-2">
 	<%= render 'svg/fishportfolio' %>
@@ -62,9 +78,9 @@
 	<div class="share">
 		<h1>THANK YOU!</h1>
 		<div class="social-buttons">
-			<a href=""><%=image_tag "facebook.png" %></a>
-			<a href=""><%=image_tag "twitter.png" %></a>
-			<a href=""><%=image_tag "pinterest.png" %></a>
+			<a href="https://facebook.com/sharer.php?u=http://www.vladkuzmin.com/bhf" target="_blank"><%=image_tag "facebook.png" %></a>
+			<a href="https://twitter.com/intent/tweet?url=http://www.vladkuzmin.com/bhf&text=Heart%20of%20York%20Bike%20Ride%20by%20Vlad%20Kuzmin&via=tapatun" target="_blank"><%=image_tag "twitter.png" %></a>
+			<a href="http://pinterest.com/pin/create/button/?url=http://www.vladkuzmin.com/bhf&description=Heart%20of%20York%20Bike%20Ride%20designed%20by%20Vlad%20Kuzmin&media=https://s3-eu-west-1.amazonaws.com/vladkuzmin-website/portfolio/facebook-bhf.jpg" target="_blank"><%=image_tag "pinterest.png" %></a>
 		</div>
 		<!-- <h4>Visit the website</h4> -->
 	</div>
