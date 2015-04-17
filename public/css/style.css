@@ -564,6 +564,7 @@ section.section-portfolio {
 		width: 200%;
 		left: -80%;
 		height: 100%;
+		pointer-events:none;
 	}
 
 	#fish-portfolio-behind {
@@ -583,7 +584,7 @@ section.section-portfolio {
 			pointer-events:none;
 		}
 		.zindex-2 {
-			z-index: 2;
+			/*z-index: 2;*/
 			position: absolute;
 			pointer-events:none;
 		}
