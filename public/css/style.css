@@ -1376,6 +1376,17 @@ section.social {
 	}
 
 
+.social-top {
+	display: block;
+}
+
+		.social-top img {
+			/*display: block;*/
+			width: 33%;
+			max-width: 30px;
+		}
+
+
 /*WORKS*/
 
 .portfolio-list {
